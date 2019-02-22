@@ -1,0 +1,289 @@
+/*
+游戏服务器操作-玩家
+*/
+
+package engine
+
+import (
+	"fmt"
+	"strconv"
+	"time"
+
+	"github.com/garyburd/redigo/redis"
+
+	"kelei.com/utils/logger"
+
+	. "kelei.com/utils/common"
+)
+
+/*
+获取玩家信息
+in:userid
+out:-2获取信息失败
+	等级,当前级别经验,当前级别升级经验,魅力值,积分,元宝数,逃跑次数,总局数,胜局,平局,败局,userid
+*/
+func GetUserInfo(args []string) *string {
+	res := "-2"
+	userid := args[1]
+	//创建玩家
+	user := UserManage.createUser()
+	user.setUserID(&userid)
+	//获取元宝
+	userIngot := user.getIngot()
+	userIngot = userIngot
+	//获取玩家信息
+	userInfo, err := redis.Ints(user.GetUserInfo("level", "lvlExp", "upExp", "charm", "integral", "flee", "inning", "win", "flat", "lose", "vip"))
+	logger.CheckError(err)
+	level, lvlExp, upExp, charm, integral, flee, inning, win, flat, lose, vip := userInfo[0], userInfo[1], userInfo[2], userInfo[3], userInfo[4], userInfo[5], userInfo[6], userInfo[7], userInfo[8], userInfo[9], userInfo[10]
+	res = fmt.Sprintf("%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%s,%d", level, lvlExp, upExp, charm, integral, userIngot, flee, inning, win, flat, lose, userid, vip)
+	return &res
+}
+
+/*
+设置玩家托管状态
+in:托管状态(0不拖1拖)
+out:没有返回值
+push:玩家托管状态
+*/
+func SetUserTG(args []string) *string {
+	res := Res_NoBack
+	userid := args[0]
+	status := args[1]
+	user := UserManage.GetUser(&userid)
+	if user == nil {
+		res = Res_Unknown
+		return &res
+	}
+	user.setTrusteeship(status == "1")
+	return &res
+}
+
+/*
+获取逃跑的费用（不在房间中返回未知数据）
+in:
+out:元宝|积分
+*/
+func FleeCost(args []string) *string {
+	res := Res_Unknown
+	userid := args[0]
+	user := UserManage.GetUser(&userid)
+	//不在比赛中
+	if user == nil {
+		return &res
+	}
+	room := user.getRoom()
+	if room == nil {
+		return &res
+	}
+	if room.GetRoomStatus() == RoomStatus_Setout {
+		return &res
+	}
+	res = user.FleeCost()
+	return &res
+}
+
+/*
+发送表情和文字（只有玩家在房间中的时候才有返回值）
+in:信息类型,信息编号
+out:无返回值
+push:userid,信息类型,信息编号
+*/
+func Chat(args []string) *string {
+	res := Res_NoBack
+	userid := args[0]
+	user := UserManage.GetUser(&userid)
+	if user == nil || user.getChatLastTime().Add(time.Second*2).After(time.Now()) {
+		return &res
+	}
+	user.setChatLastTime()
+	//不在房间中
+	if user == nil {
+		return &res
+	}
+	//没落座
+	if user.getStatus() == UserStatus_NoSitDown {
+		return &res
+	}
+	contentType := args[1]
+	contentIndex := args[2]
+	room := user.getRoom()
+	pushMessageToUsers("Chat_Push", []string{fmt.Sprintf("%s|%s|%s", userid, contentType, contentIndex)}, room.getAllUserIDs())
+	return &res
+}
+
+//获得成就信息
+func GetHonorInfo(args []string) *string {
+	userid := args[0]
+	honorType_s := args[1]
+	user := UserManage.createUser()
+	user.setUserID(&userid)
+	honorType, err := strconv.Atoi(honorType_s)
+	logger.CheckFatal(err)
+	return user.GetHonorInfo(honorType)
+}
+
+//成就领奖
+func HonorAward(args []string) *string {
+	userid := args[0]
+	achievementInfoID_s := args[1]
+	user := UserManage.createUser()
+	user.setUserID(&userid)
+	achievementInfoID, err := strconv.Atoi(achievementInfoID_s)
+	logger.CheckFatal(err)
+	return user.HonorAward(achievementInfoID)
+}
+
+/*
+获取邮件列表
+*/
+func GetMails(args []string) *string {
+	userid := args[0]
+	user := UserManage.createUser()
+	user.setUserID(&userid)
+	res := user.GetMails()
+	return res
+}
+
+/*
+断线重连获取比赛信息
+in:
+out:-1房间不存在
+	1房间存在
+push:
+	1.房间存在时{
+		1.未开赛只推送“matchingPush”
+		2.已开赛推送各种信息除了“matchingPush”
+	}
+*/
+func Reconnect(args []string) *string {
+	res := ""
+	userid := args[0]
+	user := UserManage.GetUser(&userid)
+	if user == nil {
+		res = "-1"
+		return &res
+	}
+	user.Reconnect()
+	res = "1"
+	return &res
+}
+
+//读取邮件
+func ReadMail(args []string) *string {
+	userid := args[0]
+	mailid, err := strconv.Atoi(args[1])
+	logger.CheckFatal(err)
+	user := UserManage.newUser(&userid)
+	res := user.ReadMail(mailid)
+	return res
+}
+
+//领取邮件奖励
+func ReceMail(args []string) *string {
+	userid := args[0]
+	mailid, err := strconv.Atoi(args[1])
+	logger.CheckFatal(err)
+	user := UserManage.newUser(&userid)
+	res := user.ReceMail(mailid)
+	return res
+}
+
+/*
+比赛中对其它玩家使用道具
+in:目标玩家的userid,itemid
+out:道具剩余数量,itemid
+push:MUI_Push	out:使用道具的UserID,接受道具的UserID,itemid
+des:道具剩余数量>=0 使用成功   <0 使用失败
+*/
+func MatchUseItem(args []string) *string {
+	userid := args[0]
+	dstuserid := args[1]
+	itemid, err := strconv.Atoi(args[2])
+	logger.CheckFatal(err)
+	user := UserManage.GetUser(&userid)
+	if user == nil {
+		return &Res_Unknown
+	}
+	res := user.MatchUseItem(dstuserid, itemid)
+	return res
+}
+
+/*
+获取玩家积分
+in:userid
+out:userid,积分
+*/
+func GetVideoIntegral(args []string) *string {
+	userid := args[1]
+	user := UserManage.GetUser(&userid)
+	if user == nil {
+		return &Res_Unknown
+	}
+	room := user.getRoom()
+	videoIntegral := fmt.Sprintf("%s,%d", userid, room.getUserVideoIntegral(user))
+	return &videoIntegral
+}
+
+/*
+获取比赛信息
+in:
+out:赛制,当前局数,基数,底分,倍数
+*/
+func GetMatchTopInfo(args []string) *string {
+	userid := args[0]
+	user := UserManage.GetUser(&userid)
+	if user == nil {
+		return &Res_Unknown
+	}
+	room := user.getRoom()
+	matchInfo := fmt.Sprintf("%d,%d,%d,%d,%d", room.getGameType(), room.getInning(), room.getCardinality(), room.getBaseScore(), room.getRealityMultiple())
+	return &matchInfo
+}
+
+/*
+玩家操作
+in:自定义的字符串
+out:1成功
+push:UserHandle_Push,userid,自定义的字符串
+*/
+func UserHandle(args []string) *string {
+	userid := args[0]
+	user := UserManage.GetUser(&userid)
+	if user == nil {
+		return &Res_Unknown
+	}
+	room := user.getRoom()
+	if room == nil {
+		return &Res_Unknown
+	}
+	handleInfo := args[1]
+	message := fmt.Sprintf("%s,%s", *user.getUserID(), handleInfo)
+	room.pushJudgment("UserHandle_Push", message)
+	return &Res_Succeed
+}
+
+/*
+修改分值根据uid
+in:uid,分值
+out:-1玩家不在线
+	1成功
+push:UpdateVideoIntegral_Push,uid,score
+*/
+func UpdateVideoIntegral(args []string) *string {
+	updateUID := args[1]
+	score, _ := strconv.Atoi(args[2])
+	updateUser := UserManage.GetUserByUID(&updateUID)
+	if updateUser == nil {
+		res := "-1"
+		return &res
+	}
+	room := updateUser.getRoom()
+	if room == nil {
+		return &Res_Unknown
+	}
+	room.setUserVideoIntegral(updateUser, score)
+	message := fmt.Sprintf("%s,%d", updateUID, score)
+	pushMessageToUsers("UpdateVideoIntegral_Push", []string{message}, room.getUserIDs())
+	room.pushJudgment("UpdateVideoIntegral_Push", message)
+	return &Res_Succeed
+}

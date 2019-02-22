@@ -1,0 +1,14 @@
+info  14:20:28.373369 sql.go:24: [连接Sql 127.0.0.1:3306 gouji_game]
+info  14:20:28.374713 push.go:33: [启动推送服务]
+info  14:20:28.374752 update.go:54: [启动更新服务]
+debug 14:20:28.374944 update.go:74: 当前时间：Wednesday,14:20:28
+debug 14:20:29.378494 update.go:74: 当前时间：Wednesday,14:20:29
+debug 14:20:30.380990 update.go:74: 当前时间：Wednesday,14:20:30
+debug 14:20:31.385422 update.go:74: 当前时间：Wednesday,14:20:31
+debug 14:20:32.390101 update.go:74: 当前时间：Wednesday,14:20:32
+debug 14:20:33.392704 update.go:74: 当前时间：Wednesday,14:20:33
+error 14:20:33.821875 basic.go:32: 无效的命令 : log 
+error 14:20:34.021675 basic.go:32: 无效的命令 :  
+debug 14:20:34.397487 update.go:74: 当前时间：Wednesday,14:20:34
+debug 14:20:35.402103 update.go:74: 当前时间：Wednesday,14:20:35
+debug 14:20:36.406752 update.go:74: 当前时间：Wednesday,14:20:36

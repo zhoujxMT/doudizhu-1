@@ -1,0 +1,25 @@
+info  21:10:55.290897 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_game]
+info  21:10:55.308309 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_nmmember]
+info  21:10:55.309375 redis.go:24: [连接Redis localhost:11100]
+info  21:10:55.311687 redis.go:24: [连接Redis localhost:11400]
+info  21:10:55.313585 engine.go:16: [启动引擎]
+debug 21:10:55.317579 user_hd_hint.go:143: ---------牌类型:火箭
+debug 21:10:55.317633 user_hd_hint.go:143: ---------牌类型:炸弹
+debug 21:10:55.317698 user_hd_hint.go:143: ---------牌类型:单
+debug 21:10:55.317734 user_hd_hint.go:143: ---------牌类型:对
+debug 21:10:55.317769 user_hd_hint.go:143: ---------牌类型:三
+debug 21:10:55.317804 user_hd_hint.go:143: ---------牌类型:三带一
+debug 21:10:55.317840 user_hd_hint.go:143: ---------牌类型:三带二
+debug 21:10:55.317880 user_hd_hint.go:143: ---------牌类型:顺子
+debug 21:10:55.317968 user_hd_hint.go:143: ---------牌类型:连对
+debug 21:10:55.318088 user_hd_hint.go:143: ---------牌类型:飞机
+debug 21:10:55.318177 user_hd_hint.go:143: ---------牌类型:四带二
+error 21:22:48.544482 logger.go:173:  syncGameInfo dial tcp [::1]:11350: getsockopt: connection refused
+error 21:22:49.553345 logger.go:173:  syncGameInfo dial tcp [::1]:11350: getsockopt: connection refused
+error 21:22:50.563166 logger.go:173:  syncGameInfo dial tcp [::1]:11350: getsockopt: connection refused
+error 21:22:51.538289 match.go:134: syncPCount : dial tcp [::1]:11350: getsockopt: connection refused
+error 21:22:51.573609 logger.go:173:  syncGameInfo dial tcp [::1]:11350: getsockopt: connection refused
+error 21:22:52.579361 logger.go:173:  syncGameInfo dial tcp [::1]:11350: getsockopt: connection refused
+error 21:22:53.587545 logger.go:173:  syncGameInfo dial tcp [::1]:11350: getsockopt: connection refused
+error 21:22:54.601616 logger.go:173:  syncGameInfo dial tcp [::1]:11350: getsockopt: connection refused
+error 21:22:55.610082 logger.go:173:  syncGameInfo dial tcp [::1]:11350: getsockopt: connection refused

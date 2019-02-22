@@ -1,0 +1,5 @@
+info  15:29:38.582986 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_game]
+info  15:29:38.599930 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_nmmember]
+info  15:29:38.600891 redis.go:24: [连接Redis localhost:11100]
+info  15:29:38.602872 redis.go:24: [连接Redis localhost:11400]
+info  15:29:38.615473 engine.go:16: [启动引擎]

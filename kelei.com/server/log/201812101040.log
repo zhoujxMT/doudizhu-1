@@ -1,0 +1,24 @@
+info  10:40:19.774964 sql.go:24: [连接Sql 127.0.0.1:3306 gouji_game]
+info  10:40:19.776446 push.go:33: [启动推送服务]
+info  10:40:19.776491 update.go:54: [启动更新服务]
+debug 10:40:19.776715 update.go:74: 当前时间：Monday,10:40:19
+debug 10:40:20.780792 update.go:74: 当前时间：Monday,10:40:20
+debug 10:40:21.785355 update.go:74: 当前时间：Monday,10:40:21
+debug 10:40:22.793811 update.go:74: 当前时间：Monday,10:40:22
+debug 10:40:23.796446 update.go:74: 当前时间：Monday,10:40:23
+debug 10:40:24.800242 update.go:74: 当前时间：Monday,10:40:24
+debug 10:40:25.804272 update.go:74: 当前时间：Monday,10:40:25
+debug 10:40:26.807735 update.go:74: 当前时间：Monday,10:40:26
+debug 10:40:27.811270 update.go:74: 当前时间：Monday,10:40:27
+debug 10:40:28.814119 update.go:74: 当前时间：Monday,10:40:28
+debug 10:40:29.817668 update.go:74: 当前时间：Monday,10:40:29
+debug 10:40:30.820801 update.go:74: 当前时间：Monday,10:40:30
+debug 10:40:31.823750 update.go:74: 当前时间：Monday,10:40:31
+debug 10:40:32.826895 update.go:74: 当前时间：Monday,10:40:32
+info  10:40:58.747534 sql.go:24: [连接Sql 127.0.0.1:3306 gouji_game]
+info  10:40:58.749038 push.go:33: [启动推送服务]
+info  10:40:58.749168 update.go:54: [启动更新服务]
+debug 10:40:58.749351 update.go:74: 当前时间：Monday,10:40:58
+debug 10:40:59.750672 update.go:74: 当前时间：Monday,10:40:59
+debug 10:41:00.755514 update.go:74: 当前时间：Monday,10:41:00
+debug 10:41:01.766911 update.go:74: 当前时间：Monday,10:41:01

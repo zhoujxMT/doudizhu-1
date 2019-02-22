@@ -1,0 +1,74 @@
+info  14:07:33.862617 websocket.go:44: server started on : localhost:11280
+info  14:07:34.291205 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_game]
+info  14:07:34.291951 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_nmmember]
+info  14:07:34.292520 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_loadbalancer]
+debug 14:09:26.458761 websocket.go:97: 客户端<127.0.0.1:50554>连接成功
+debug 14:09:26.468046 websocket.go:571: 客户端<127.0.0.1:50554>命令调用:Init,h1,1,2,
+debug 14:09:26.476801 websocket.go:571: 客户端<127.0.0.1:50554>命令调用:Connect
+error 14:09:26.490310 websocket.go:734: failed to call: dial tcp: missing address
+debug 14:09:26.500659 websocket.go:423: 客户端<127.0.0.1:50554>返回结果<8>:Connect,
+debug 14:09:26.500709 websocket.go:423: 客户端<127.0.0.1:50554>返回结果<7>:Init,67
+debug 14:09:26.502713 websocket.go:571: 客户端<127.0.0.1:50554>命令调用:ExistingMatch
+debug 14:09:26.502782 websocket.go:423: 客户端<127.0.0.1:50554>返回结果<15>:ExistingMatch,0
+debug 14:09:26.607645 websocket.go:571: 客户端<127.0.0.1:50554>命令调用:Matching,0,0,0
+error 14:09:26.607895 websocket.go:734: failed to call: dial tcp: missing address
+debug 14:09:26.607977 websocket.go:423: 客户端<127.0.0.1:50554>返回结果<9>:Matching,
+error 14:10:12.840524 websocket.go:299: websocket err:websocket: close 1001 (going away)
+debug 14:10:12.840618 websocket.go:571: 客户端<127.0.0.1:50554>命令调用:ClientConnClose
+error 14:10:12.840781 websocket.go:734: failed to call: dial tcp: missing address
+debug 14:10:12.840834 websocket.go:423: 客户端<127.0.0.1:50554>返回结果<16>:ClientConnClose,
+debug 14:10:12.840905 websocket.go:282: 客户端<127.0.0.1:50554>断开 : websocket: close 1001 (going away)
+debug 14:10:12.894187 websocket.go:97: 客户端<127.0.0.1:50759>连接成功
+debug 14:10:12.902040 websocket.go:571: 客户端<127.0.0.1:50759>命令调用:Init,h1,1,2,
+debug 14:10:12.904209 websocket.go:571: 客户端<127.0.0.1:50759>命令调用:Connect
+error 14:10:12.914716 websocket.go:734: failed to call: dial tcp: missing address
+debug 14:10:12.922542 websocket.go:423: 客户端<127.0.0.1:50759>返回结果<8>:Connect,
+debug 14:10:12.922582 websocket.go:423: 客户端<127.0.0.1:50759>返回结果<7>:Init,67
+debug 14:10:12.923539 websocket.go:571: 客户端<127.0.0.1:50759>命令调用:ExistingMatch
+debug 14:10:12.923596 websocket.go:423: 客户端<127.0.0.1:50759>返回结果<15>:ExistingMatch,0
+debug 14:10:13.028758 websocket.go:571: 客户端<127.0.0.1:50759>命令调用:Matching,0,0,0
+error 14:10:13.028908 websocket.go:734: failed to call: dial tcp: missing address
+debug 14:10:13.028954 websocket.go:423: 客户端<127.0.0.1:50759>返回结果<9>:Matching,
+error 14:10:51.403645 websocket.go:299: websocket err:websocket: close 1001 (going away)
+debug 14:10:51.403865 websocket.go:571: 客户端<127.0.0.1:50759>命令调用:ClientConnClose
+debug 14:10:51.406038 websocket.go:423: 客户端<127.0.0.1:50759>返回结果<18>:ClientConnClose,-c
+debug 14:10:51.406111 websocket.go:282: 客户端<127.0.0.1:50759>断开 : websocket: close 1001 (going away)
+debug 14:10:51.459826 websocket.go:97: 客户端<127.0.0.1:50961>连接成功
+debug 14:10:51.466769 websocket.go:571: 客户端<127.0.0.1:50961>命令调用:Init,h1,1,2,
+debug 14:10:51.483410 websocket.go:571: 客户端<127.0.0.1:50961>命令调用:Connect
+debug 14:10:51.512603 websocket.go:423: 客户端<127.0.0.1:50961>返回结果<8>:Connect,
+debug 14:10:51.512656 websocket.go:423: 客户端<127.0.0.1:50961>返回结果<7>:Init,67
+debug 14:10:51.513616 websocket.go:571: 客户端<127.0.0.1:50961>命令调用:ExistingMatch
+debug 14:10:51.513665 websocket.go:423: 客户端<127.0.0.1:50961>返回结果<15>:ExistingMatch,0
+debug 14:10:51.618693 websocket.go:571: 客户端<127.0.0.1:50961>命令调用:Matching,0,0,0
+debug 14:10:51.625997 websocket.go:423: 客户端<127.0.0.1:50961>返回结果<10>:Matching,1
+debug 14:10:51.627366 websocket.go:571: 客户端<127.0.0.1:50961>命令调用:EnterRoom,0,0
+debug 14:10:51.630338 websocket.go:423: 客户端<127.0.0.1:50961>返回结果<23>:EnterRoom,1549951851628
+debug 14:10:51.630595 websocket.go:423: 客户端<127.0.0.1:50961>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 14:10:51.835584 websocket.go:571: 客户端<127.0.0.1:50961>命令调用:Setout
+debug 14:10:51.838712 websocket.go:423: 客户端<127.0.0.1:50961>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 14:10:51.838800 websocket.go:423: 客户端<127.0.0.1:50961>返回结果<8>:Setout,1
+error 14:33:22.052268 websocket.go:299: websocket err:websocket: close 1001 (going away)
+debug 14:33:22.052489 websocket.go:571: 客户端<127.0.0.1:50961>命令调用:ClientConnClose
+error 14:33:22.052620 websocket.go:734: failed to call: dial tcp: missing address
+debug 14:33:22.052677 websocket.go:423: 客户端<127.0.0.1:50961>返回结果<16>:ClientConnClose,
+debug 14:33:22.052723 websocket.go:282: 客户端<127.0.0.1:50961>断开 : websocket: close 1001 (going away)
+debug 16:38:05.683203 websocket.go:97: 客户端<127.0.0.1:50499>连接成功
+debug 16:38:05.694391 websocket.go:571: 客户端<127.0.0.1:50499>命令调用:Init,h1,1,2,
+debug 16:38:05.697628 websocket.go:571: 客户端<127.0.0.1:50499>命令调用:Connect
+debug 16:38:05.729470 websocket.go:423: 客户端<127.0.0.1:50499>返回结果<8>:Connect,
+debug 16:38:05.729532 websocket.go:423: 客户端<127.0.0.1:50499>返回结果<7>:Init,67
+debug 16:38:05.730798 websocket.go:571: 客户端<127.0.0.1:50499>命令调用:ExistingMatch
+debug 16:38:05.730847 websocket.go:423: 客户端<127.0.0.1:50499>返回结果<15>:ExistingMatch,0
+debug 16:38:05.833377 websocket.go:571: 客户端<127.0.0.1:50499>命令调用:Matching,0,0,0
+debug 16:38:05.836523 websocket.go:423: 客户端<127.0.0.1:50499>返回结果<10>:Matching,1
+debug 16:38:05.838257 websocket.go:571: 客户端<127.0.0.1:50499>命令调用:EnterRoom,0,0
+debug 16:38:05.841728 websocket.go:423: 客户端<127.0.0.1:50499>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 16:38:05.841782 websocket.go:423: 客户端<127.0.0.1:50499>返回结果<23>:EnterRoom,1549960685839
+debug 16:38:06.042244 websocket.go:571: 客户端<127.0.0.1:50499>命令调用:Setout
+debug 16:38:06.045598 websocket.go:423: 客户端<127.0.0.1:50499>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 16:38:06.045710 websocket.go:423: 客户端<127.0.0.1:50499>返回结果<8>:Setout,1
+error 16:48:17.446687 websocket.go:299: websocket err:websocket: close 1001 (going away)
+debug 16:48:17.446811 websocket.go:571: 客户端<127.0.0.1:50499>命令调用:ClientConnClose
+debug 16:48:17.447385 websocket.go:423: 客户端<127.0.0.1:50499>返回结果<18>:ClientConnClose,-c
+debug 16:48:17.447441 websocket.go:282: 客户端<127.0.0.1:50499>断开 : websocket: close 1001 (going away)

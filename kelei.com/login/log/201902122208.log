@@ -1,0 +1,2 @@
+info  22:08:36.090438 httpgin.go:34: [启动http localhost:11480]
+info  22:08:36.090788 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_nmmember]

@@ -1,0 +1,842 @@
+info  22:09:15.328588 websocket.go:44: server started on : localhost:11280
+info  22:09:15.918623 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_game]
+info  22:09:15.920097 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_nmmember]
+info  22:09:15.921192 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_loadbalancer]
+debug 22:10:00.799639 websocket.go:97: 客户端<127.0.0.1:62865>连接成功
+error 22:10:01.806189 websocket.go:308: websocket err:read tcp 127.0.0.1:11280->127.0.0.1:62865: use of closed network connection
+debug 22:10:01.809340 websocket.go:580: 客户端<127.0.0.1:62865>命令调用:ClientConnClose
+debug 22:10:01.809408 websocket.go:291: 客户端<127.0.0.1:62865>断开 : read tcp 127.0.0.1:11280->127.0.0.1:62865: use of closed network connection
+debug 22:10:05.429510 websocket.go:97: 客户端<127.0.0.1:62870>连接成功
+error 22:10:06.446631 websocket.go:308: websocket err:read tcp 127.0.0.1:11280->127.0.0.1:62870: use of closed network connection
+debug 22:10:06.450608 websocket.go:580: 客户端<127.0.0.1:62870>命令调用:ClientConnClose
+debug 22:10:06.450716 websocket.go:291: 客户端<127.0.0.1:62870>断开 : read tcp 127.0.0.1:11280->127.0.0.1:62870: use of closed network connection
+debug 22:10:08.948069 websocket.go:97: 客户端<127.0.0.1:62875>连接成功
+error 22:10:09.951892 websocket.go:308: websocket err:read tcp 127.0.0.1:11280->127.0.0.1:62875: use of closed network connection
+debug 22:10:09.954557 websocket.go:580: 客户端<127.0.0.1:62875>命令调用:ClientConnClose
+debug 22:10:09.954633 websocket.go:291: 客户端<127.0.0.1:62875>断开 : read tcp 127.0.0.1:11280->127.0.0.1:62875: use of closed network connection
+debug 22:10:13.135188 websocket.go:97: 客户端<127.0.0.1:62881>连接成功
+error 22:10:14.140847 websocket.go:308: websocket err:read tcp 127.0.0.1:11280->127.0.0.1:62881: use of closed network connection
+debug 22:10:14.142349 websocket.go:580: 客户端<127.0.0.1:62881>命令调用:ClientConnClose
+debug 22:10:14.142393 websocket.go:291: 客户端<127.0.0.1:62881>断开 : read tcp 127.0.0.1:11280->127.0.0.1:62881: use of closed network connection
+debug 22:10:14.593640 websocket.go:97: 客户端<127.0.0.1:62925>连接成功
+error 22:10:15.609422 websocket.go:308: websocket err:read tcp 127.0.0.1:11280->127.0.0.1:62925: use of closed network connection
+debug 22:10:15.618155 websocket.go:580: 客户端<127.0.0.1:62925>命令调用:ClientConnClose
+debug 22:10:15.618207 websocket.go:291: 客户端<127.0.0.1:62925>断开 : read tcp 127.0.0.1:11280->127.0.0.1:62925: use of closed network connection
+debug 22:10:16.120677 websocket.go:97: 客户端<127.0.0.1:62929>连接成功
+error 22:10:17.130033 websocket.go:308: websocket err:read tcp 127.0.0.1:11280->127.0.0.1:62929: use of closed network connection
+debug 22:10:17.130136 websocket.go:580: 客户端<127.0.0.1:62929>命令调用:ClientConnClose
+debug 22:10:17.130186 websocket.go:291: 客户端<127.0.0.1:62929>断开 : read tcp 127.0.0.1:11280->127.0.0.1:62929: use of closed network connection
+debug 22:10:17.660203 websocket.go:97: 客户端<127.0.0.1:62934>连接成功
+error 22:10:18.678217 websocket.go:308: websocket err:read tcp 127.0.0.1:11280->127.0.0.1:62934: use of closed network connection
+debug 22:10:18.680868 websocket.go:580: 客户端<127.0.0.1:62934>命令调用:ClientConnClose
+debug 22:10:18.680931 websocket.go:291: 客户端<127.0.0.1:62934>断开 : read tcp 127.0.0.1:11280->127.0.0.1:62934: use of closed network connection
+debug 22:10:32.150908 websocket.go:97: 客户端<127.0.0.1:62944>连接成功
+debug 22:10:32.158772 websocket.go:580: 客户端<127.0.0.1:62944>命令调用:Init,h1,1,2,
+debug 22:10:32.171011 websocket.go:580: 客户端<127.0.0.1:62944>命令调用:Connect
+debug 22:10:32.201662 websocket.go:432: 客户端<127.0.0.1:62944>返回结果<8>:Connect,
+debug 22:10:32.201708 websocket.go:432: 客户端<127.0.0.1:62944>返回结果<7>:Init,67
+debug 22:10:32.203085 websocket.go:580: 客户端<127.0.0.1:62944>命令调用:ExistingMatch
+debug 22:10:32.203136 websocket.go:432: 客户端<127.0.0.1:62944>返回结果<15>:ExistingMatch,0
+debug 22:10:32.309042 websocket.go:580: 客户端<127.0.0.1:62944>命令调用:Matching,0,0,0
+debug 22:10:32.313394 websocket.go:432: 客户端<127.0.0.1:62944>返回结果<10>:Matching,1
+debug 22:10:32.314990 websocket.go:580: 客户端<127.0.0.1:62944>命令调用:EnterRoom,0,0
+debug 22:10:32.318198 websocket.go:432: 客户端<127.0.0.1:62944>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:10:32.318263 websocket.go:432: 客户端<127.0.0.1:62944>返回结果<23>:EnterRoom,1549980632316
+debug 22:10:32.517973 websocket.go:580: 客户端<127.0.0.1:62944>命令调用:Setout
+debug 22:10:32.520937 websocket.go:432: 客户端<127.0.0.1:62944>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:10:32.521011 websocket.go:432: 客户端<127.0.0.1:62944>返回结果<8>:Setout,1
+error 22:10:35.734933 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:10:35.735046 websocket.go:580: 客户端<127.0.0.1:62944>命令调用:ClientConnClose
+debug 22:10:35.735558 websocket.go:432: 客户端<127.0.0.1:62944>返回结果<18>:ClientConnClose,-c
+debug 22:10:35.735652 websocket.go:291: 客户端<127.0.0.1:62944>断开 : websocket: close 1001 (going away)
+debug 22:10:35.771255 websocket.go:97: 客户端<127.0.0.1:62951>连接成功
+debug 22:10:35.782447 websocket.go:580: 客户端<127.0.0.1:62951>命令调用:Init,h1,1,2,
+debug 22:10:35.785048 websocket.go:580: 客户端<127.0.0.1:62951>命令调用:Connect
+debug 22:10:35.814374 websocket.go:432: 客户端<127.0.0.1:62951>返回结果<8>:Connect,
+debug 22:10:35.814455 websocket.go:432: 客户端<127.0.0.1:62951>返回结果<7>:Init,67
+debug 22:10:35.815449 websocket.go:580: 客户端<127.0.0.1:62951>命令调用:ExistingMatch
+debug 22:10:35.815502 websocket.go:432: 客户端<127.0.0.1:62951>返回结果<15>:ExistingMatch,0
+debug 22:10:35.918163 websocket.go:580: 客户端<127.0.0.1:62951>命令调用:Matching,0,0,0
+debug 22:10:35.920020 websocket.go:432: 客户端<127.0.0.1:62951>返回结果<10>:Matching,1
+debug 22:10:35.921223 websocket.go:580: 客户端<127.0.0.1:62951>命令调用:EnterRoom,0,0
+debug 22:10:35.924872 websocket.go:432: 客户端<127.0.0.1:62951>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:10:35.924943 websocket.go:432: 客户端<127.0.0.1:62951>返回结果<23>:EnterRoom,1549980635922
+debug 22:10:36.126490 websocket.go:580: 客户端<127.0.0.1:62951>命令调用:Setout
+debug 22:10:36.131105 websocket.go:432: 客户端<127.0.0.1:62951>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:10:36.131169 websocket.go:432: 客户端<127.0.0.1:62951>返回结果<8>:Setout,1
+error 22:10:39.511042 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:10:39.511187 websocket.go:580: 客户端<127.0.0.1:62951>命令调用:ClientConnClose
+debug 22:10:39.511687 websocket.go:432: 客户端<127.0.0.1:62951>返回结果<18>:ClientConnClose,-c
+debug 22:10:39.511751 websocket.go:291: 客户端<127.0.0.1:62951>断开 : websocket: close 1001 (going away)
+debug 22:10:39.549726 websocket.go:97: 客户端<127.0.0.1:62964>连接成功
+debug 22:10:39.568454 websocket.go:580: 客户端<127.0.0.1:62964>命令调用:Init,h1,1,2,
+debug 22:10:39.580465 websocket.go:580: 客户端<127.0.0.1:62964>命令调用:Connect
+debug 22:10:39.622139 websocket.go:432: 客户端<127.0.0.1:62964>返回结果<8>:Connect,
+debug 22:10:39.622279 websocket.go:432: 客户端<127.0.0.1:62964>返回结果<7>:Init,67
+debug 22:10:39.624478 websocket.go:580: 客户端<127.0.0.1:62964>命令调用:ExistingMatch
+debug 22:10:39.624579 websocket.go:432: 客户端<127.0.0.1:62964>返回结果<15>:ExistingMatch,0
+debug 22:10:39.729561 websocket.go:580: 客户端<127.0.0.1:62964>命令调用:Matching,0,0,0
+debug 22:10:39.731357 websocket.go:432: 客户端<127.0.0.1:62964>返回结果<10>:Matching,1
+debug 22:10:39.732616 websocket.go:580: 客户端<127.0.0.1:62964>命令调用:EnterRoom,0,0
+debug 22:10:39.736119 websocket.go:432: 客户端<127.0.0.1:62964>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:10:39.736176 websocket.go:432: 客户端<127.0.0.1:62964>返回结果<23>:EnterRoom,1549980639734
+debug 22:10:39.936211 websocket.go:580: 客户端<127.0.0.1:62964>命令调用:Setout
+debug 22:10:39.938954 websocket.go:432: 客户端<127.0.0.1:62964>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:10:39.939059 websocket.go:432: 客户端<127.0.0.1:62964>返回结果<8>:Setout,1
+error 22:10:43.215180 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:10:43.215296 websocket.go:580: 客户端<127.0.0.1:62964>命令调用:ClientConnClose
+debug 22:10:43.215729 websocket.go:432: 客户端<127.0.0.1:62964>返回结果<18>:ClientConnClose,-c
+debug 22:10:43.215776 websocket.go:291: 客户端<127.0.0.1:62964>断开 : websocket: close 1001 (going away)
+debug 22:10:43.266920 websocket.go:97: 客户端<127.0.0.1:62975>连接成功
+debug 22:10:43.275420 websocket.go:580: 客户端<127.0.0.1:62975>命令调用:Init,h1,1,2,
+debug 22:10:43.284591 websocket.go:580: 客户端<127.0.0.1:62975>命令调用:Connect
+debug 22:10:43.316938 websocket.go:432: 客户端<127.0.0.1:62975>返回结果<8>:Connect,
+debug 22:10:43.317022 websocket.go:432: 客户端<127.0.0.1:62975>返回结果<7>:Init,67
+debug 22:10:43.318357 websocket.go:580: 客户端<127.0.0.1:62975>命令调用:ExistingMatch
+debug 22:10:43.318413 websocket.go:432: 客户端<127.0.0.1:62975>返回结果<15>:ExistingMatch,0
+debug 22:10:43.422065 websocket.go:580: 客户端<127.0.0.1:62975>命令调用:Matching,0,0,0
+debug 22:10:43.426398 websocket.go:432: 客户端<127.0.0.1:62975>返回结果<10>:Matching,1
+debug 22:10:43.427645 websocket.go:580: 客户端<127.0.0.1:62975>命令调用:EnterRoom,0,0
+debug 22:10:43.431042 websocket.go:432: 客户端<127.0.0.1:62975>返回结果<23>:EnterRoom,1549980643429
+debug 22:10:43.431054 websocket.go:432: 客户端<127.0.0.1:62975>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:10:43.631235 websocket.go:580: 客户端<127.0.0.1:62975>命令调用:Setout
+debug 22:10:43.635370 websocket.go:432: 客户端<127.0.0.1:62975>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:10:43.635471 websocket.go:432: 客户端<127.0.0.1:62975>返回结果<8>:Setout,1
+error 22:10:47.446641 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:10:47.446754 websocket.go:580: 客户端<127.0.0.1:62975>命令调用:ClientConnClose
+debug 22:10:47.447203 websocket.go:432: 客户端<127.0.0.1:62975>返回结果<18>:ClientConnClose,-c
+debug 22:10:47.447248 websocket.go:291: 客户端<127.0.0.1:62975>断开 : websocket: close 1001 (going away)
+debug 22:10:47.485282 websocket.go:97: 客户端<127.0.0.1:62991>连接成功
+debug 22:10:47.503070 websocket.go:580: 客户端<127.0.0.1:62991>命令调用:Init,h1,1,2,
+debug 22:10:47.510851 websocket.go:580: 客户端<127.0.0.1:62991>命令调用:Connect
+debug 22:10:47.544169 websocket.go:432: 客户端<127.0.0.1:62991>返回结果<8>:Connect,
+debug 22:10:47.544222 websocket.go:432: 客户端<127.0.0.1:62991>返回结果<7>:Init,67
+debug 22:10:47.545286 websocket.go:580: 客户端<127.0.0.1:62991>命令调用:ExistingMatch
+debug 22:10:47.545339 websocket.go:432: 客户端<127.0.0.1:62991>返回结果<15>:ExistingMatch,0
+debug 22:10:47.650116 websocket.go:580: 客户端<127.0.0.1:62991>命令调用:Matching,0,0,0
+debug 22:10:47.652629 websocket.go:432: 客户端<127.0.0.1:62991>返回结果<10>:Matching,1
+debug 22:10:47.653938 websocket.go:580: 客户端<127.0.0.1:62991>命令调用:EnterRoom,0,0
+debug 22:10:47.658094 websocket.go:432: 客户端<127.0.0.1:62991>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:10:47.658148 websocket.go:432: 客户端<127.0.0.1:62991>返回结果<23>:EnterRoom,1549980647656
+debug 22:10:47.860338 websocket.go:580: 客户端<127.0.0.1:62991>命令调用:Setout
+debug 22:10:47.863378 websocket.go:432: 客户端<127.0.0.1:62991>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:10:47.863460 websocket.go:432: 客户端<127.0.0.1:62991>返回结果<8>:Setout,1
+error 22:10:53.238673 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:10:53.238778 websocket.go:580: 客户端<127.0.0.1:62991>命令调用:ClientConnClose
+debug 22:10:53.239190 websocket.go:432: 客户端<127.0.0.1:62991>返回结果<18>:ClientConnClose,-c
+debug 22:10:53.239265 websocket.go:291: 客户端<127.0.0.1:62991>断开 : websocket: close 1001 (going away)
+debug 22:10:53.283015 websocket.go:97: 客户端<127.0.0.1:63007>连接成功
+debug 22:10:53.294574 websocket.go:580: 客户端<127.0.0.1:63007>命令调用:Init,h1,1,2,
+debug 22:10:53.296936 websocket.go:580: 客户端<127.0.0.1:63007>命令调用:Connect
+debug 22:10:53.335525 websocket.go:432: 客户端<127.0.0.1:63007>返回结果<8>:Connect,
+debug 22:10:53.335577 websocket.go:432: 客户端<127.0.0.1:63007>返回结果<7>:Init,67
+debug 22:10:53.336672 websocket.go:580: 客户端<127.0.0.1:63007>命令调用:ExistingMatch
+debug 22:10:53.336715 websocket.go:432: 客户端<127.0.0.1:63007>返回结果<15>:ExistingMatch,0
+debug 22:10:53.443321 websocket.go:580: 客户端<127.0.0.1:63007>命令调用:Matching,0,0,0
+debug 22:10:53.448151 websocket.go:432: 客户端<127.0.0.1:63007>返回结果<10>:Matching,1
+debug 22:10:53.449270 websocket.go:580: 客户端<127.0.0.1:63007>命令调用:EnterRoom,0,0
+debug 22:10:53.452410 websocket.go:432: 客户端<127.0.0.1:63007>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:10:53.452462 websocket.go:432: 客户端<127.0.0.1:63007>返回结果<23>:EnterRoom,1549980653450
+debug 22:10:53.654345 websocket.go:580: 客户端<127.0.0.1:63007>命令调用:Setout
+debug 22:10:53.659117 websocket.go:432: 客户端<127.0.0.1:63007>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:10:53.659171 websocket.go:432: 客户端<127.0.0.1:63007>返回结果<8>:Setout,1
+error 22:10:58.646128 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:10:58.646233 websocket.go:580: 客户端<127.0.0.1:63007>命令调用:ClientConnClose
+debug 22:10:58.646684 websocket.go:432: 客户端<127.0.0.1:63007>返回结果<18>:ClientConnClose,-c
+debug 22:10:58.646751 websocket.go:291: 客户端<127.0.0.1:63007>断开 : websocket: close 1001 (going away)
+debug 22:10:58.687497 websocket.go:97: 客户端<127.0.0.1:63018>连接成功
+debug 22:10:58.699331 websocket.go:580: 客户端<127.0.0.1:63018>命令调用:Init,h1,1,2,
+debug 22:10:58.701249 websocket.go:580: 客户端<127.0.0.1:63018>命令调用:Connect
+debug 22:10:58.733774 websocket.go:432: 客户端<127.0.0.1:63018>返回结果<8>:Connect,
+debug 22:10:58.733842 websocket.go:432: 客户端<127.0.0.1:63018>返回结果<7>:Init,67
+debug 22:10:58.734733 websocket.go:580: 客户端<127.0.0.1:63018>命令调用:ExistingMatch
+debug 22:10:58.734772 websocket.go:432: 客户端<127.0.0.1:63018>返回结果<15>:ExistingMatch,0
+debug 22:10:58.839816 websocket.go:580: 客户端<127.0.0.1:63018>命令调用:Matching,0,0,0
+debug 22:10:58.841238 websocket.go:432: 客户端<127.0.0.1:63018>返回结果<10>:Matching,1
+debug 22:10:58.842219 websocket.go:580: 客户端<127.0.0.1:63018>命令调用:EnterRoom,0,0
+debug 22:10:58.844897 websocket.go:432: 客户端<127.0.0.1:63018>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:10:58.844957 websocket.go:432: 客户端<127.0.0.1:63018>返回结果<23>:EnterRoom,1549980658843
+debug 22:10:59.046584 websocket.go:580: 客户端<127.0.0.1:63018>命令调用:Setout
+debug 22:10:59.049717 websocket.go:432: 客户端<127.0.0.1:63018>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:10:59.049798 websocket.go:432: 客户端<127.0.0.1:63018>返回结果<8>:Setout,1
+error 22:11:03.239173 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:11:03.239274 websocket.go:580: 客户端<127.0.0.1:63018>命令调用:ClientConnClose
+debug 22:11:03.239756 websocket.go:432: 客户端<127.0.0.1:63018>返回结果<18>:ClientConnClose,-c
+debug 22:11:03.239830 websocket.go:291: 客户端<127.0.0.1:63018>断开 : websocket: close 1001 (going away)
+debug 22:11:03.290729 websocket.go:97: 客户端<127.0.0.1:63035>连接成功
+debug 22:11:03.305524 websocket.go:580: 客户端<127.0.0.1:63035>命令调用:Init,h1,1,2,
+debug 22:11:03.307463 websocket.go:580: 客户端<127.0.0.1:63035>命令调用:Connect
+debug 22:11:03.339824 websocket.go:432: 客户端<127.0.0.1:63035>返回结果<8>:Connect,
+debug 22:11:03.339861 websocket.go:432: 客户端<127.0.0.1:63035>返回结果<7>:Init,67
+debug 22:11:03.340703 websocket.go:580: 客户端<127.0.0.1:63035>命令调用:ExistingMatch
+debug 22:11:03.340743 websocket.go:432: 客户端<127.0.0.1:63035>返回结果<15>:ExistingMatch,0
+debug 22:11:03.444096 websocket.go:580: 客户端<127.0.0.1:63035>命令调用:Matching,0,0,0
+debug 22:11:03.446261 websocket.go:432: 客户端<127.0.0.1:63035>返回结果<10>:Matching,1
+debug 22:11:03.447727 websocket.go:580: 客户端<127.0.0.1:63035>命令调用:EnterRoom,0,0
+debug 22:11:03.453304 websocket.go:432: 客户端<127.0.0.1:63035>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:11:03.453313 websocket.go:432: 客户端<127.0.0.1:63035>返回结果<23>:EnterRoom,1549980663451
+debug 22:11:03.651617 websocket.go:580: 客户端<127.0.0.1:63035>命令调用:Setout
+debug 22:11:03.656280 websocket.go:432: 客户端<127.0.0.1:63035>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:11:03.656383 websocket.go:432: 客户端<127.0.0.1:63035>返回结果<8>:Setout,1
+error 22:11:06.788707 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:11:06.788836 websocket.go:580: 客户端<127.0.0.1:63035>命令调用:ClientConnClose
+debug 22:11:06.789204 websocket.go:432: 客户端<127.0.0.1:63035>返回结果<18>:ClientConnClose,-c
+debug 22:11:06.789249 websocket.go:291: 客户端<127.0.0.1:63035>断开 : websocket: close 1001 (going away)
+debug 22:11:06.830822 websocket.go:97: 客户端<127.0.0.1:63046>连接成功
+debug 22:11:06.838136 websocket.go:580: 客户端<127.0.0.1:63046>命令调用:Init,h1,1,2,
+debug 22:11:06.849483 websocket.go:580: 客户端<127.0.0.1:63046>命令调用:Connect
+debug 22:11:06.884365 websocket.go:432: 客户端<127.0.0.1:63046>返回结果<8>:Connect,
+debug 22:11:06.884419 websocket.go:432: 客户端<127.0.0.1:63046>返回结果<7>:Init,67
+debug 22:11:06.885411 websocket.go:580: 客户端<127.0.0.1:63046>命令调用:ExistingMatch
+debug 22:11:06.885456 websocket.go:432: 客户端<127.0.0.1:63046>返回结果<15>:ExistingMatch,0
+debug 22:11:06.989289 websocket.go:580: 客户端<127.0.0.1:63046>命令调用:Matching,0,0,0
+debug 22:11:06.991424 websocket.go:432: 客户端<127.0.0.1:63046>返回结果<10>:Matching,1
+debug 22:11:06.993019 websocket.go:580: 客户端<127.0.0.1:63046>命令调用:EnterRoom,0,0
+debug 22:11:06.996650 websocket.go:432: 客户端<127.0.0.1:63046>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:11:06.996745 websocket.go:432: 客户端<127.0.0.1:63046>返回结果<23>:EnterRoom,1549980666994
+debug 22:11:07.197602 websocket.go:580: 客户端<127.0.0.1:63046>命令调用:Setout
+debug 22:11:07.204716 websocket.go:432: 客户端<127.0.0.1:63046>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:11:07.204781 websocket.go:432: 客户端<127.0.0.1:63046>返回结果<8>:Setout,1
+error 22:11:07.861694 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:11:07.861793 websocket.go:580: 客户端<127.0.0.1:63046>命令调用:ClientConnClose
+debug 22:11:07.862229 websocket.go:432: 客户端<127.0.0.1:63046>返回结果<18>:ClientConnClose,-c
+debug 22:11:07.862302 websocket.go:291: 客户端<127.0.0.1:63046>断开 : websocket: close 1001 (going away)
+debug 22:11:07.903991 websocket.go:97: 客户端<127.0.0.1:63056>连接成功
+debug 22:11:07.912427 websocket.go:580: 客户端<127.0.0.1:63056>命令调用:Init,h1,1,2,
+debug 22:11:07.925022 websocket.go:580: 客户端<127.0.0.1:63056>命令调用:Connect
+debug 22:11:07.959010 websocket.go:432: 客户端<127.0.0.1:63056>返回结果<8>:Connect,
+debug 22:11:07.959060 websocket.go:432: 客户端<127.0.0.1:63056>返回结果<7>:Init,67
+debug 22:11:07.959997 websocket.go:580: 客户端<127.0.0.1:63056>命令调用:ExistingMatch
+debug 22:11:07.960045 websocket.go:432: 客户端<127.0.0.1:63056>返回结果<15>:ExistingMatch,0
+debug 22:11:08.066125 websocket.go:580: 客户端<127.0.0.1:63056>命令调用:Matching,0,0,0
+debug 22:11:08.068552 websocket.go:432: 客户端<127.0.0.1:63056>返回结果<10>:Matching,1
+debug 22:11:08.069970 websocket.go:580: 客户端<127.0.0.1:63056>命令调用:EnterRoom,0,0
+debug 22:11:08.073674 websocket.go:432: 客户端<127.0.0.1:63056>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:11:08.073741 websocket.go:432: 客户端<127.0.0.1:63056>返回结果<23>:EnterRoom,1549980668071
+debug 22:11:08.273221 websocket.go:580: 客户端<127.0.0.1:63056>命令调用:Setout
+debug 22:11:08.276200 websocket.go:432: 客户端<127.0.0.1:63056>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:11:08.276283 websocket.go:432: 客户端<127.0.0.1:63056>返回结果<8>:Setout,1
+error 22:11:08.965916 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:11:08.966004 websocket.go:580: 客户端<127.0.0.1:63056>命令调用:ClientConnClose
+debug 22:11:08.966465 websocket.go:432: 客户端<127.0.0.1:63056>返回结果<18>:ClientConnClose,-c
+debug 22:11:08.966523 websocket.go:291: 客户端<127.0.0.1:63056>断开 : websocket: close 1001 (going away)
+debug 22:11:09.003402 websocket.go:97: 客户端<127.0.0.1:63069>连接成功
+debug 22:11:09.016107 websocket.go:580: 客户端<127.0.0.1:63069>命令调用:Init,h1,1,2,
+debug 22:11:09.018017 websocket.go:580: 客户端<127.0.0.1:63069>命令调用:Connect
+debug 22:11:09.049730 websocket.go:432: 客户端<127.0.0.1:63069>返回结果<8>:Connect,
+debug 22:11:09.049783 websocket.go:432: 客户端<127.0.0.1:63069>返回结果<7>:Init,67
+debug 22:11:09.050841 websocket.go:580: 客户端<127.0.0.1:63069>命令调用:ExistingMatch
+debug 22:11:09.050882 websocket.go:432: 客户端<127.0.0.1:63069>返回结果<15>:ExistingMatch,0
+debug 22:11:09.155380 websocket.go:580: 客户端<127.0.0.1:63069>命令调用:Matching,0,0,0
+debug 22:11:09.159150 websocket.go:432: 客户端<127.0.0.1:63069>返回结果<10>:Matching,1
+debug 22:11:09.160119 websocket.go:580: 客户端<127.0.0.1:63069>命令调用:EnterRoom,0,0
+debug 22:11:09.162856 websocket.go:432: 客户端<127.0.0.1:63069>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:11:09.162929 websocket.go:432: 客户端<127.0.0.1:63069>返回结果<23>:EnterRoom,1549980669161
+debug 22:11:09.362090 websocket.go:580: 客户端<127.0.0.1:63069>命令调用:Setout
+debug 22:11:09.364888 websocket.go:432: 客户端<127.0.0.1:63069>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:11:09.364987 websocket.go:432: 客户端<127.0.0.1:63069>返回结果<8>:Setout,1
+error 22:11:10.045086 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:11:10.045184 websocket.go:580: 客户端<127.0.0.1:63069>命令调用:ClientConnClose
+debug 22:11:10.045662 websocket.go:432: 客户端<127.0.0.1:63069>返回结果<18>:ClientConnClose,-c
+debug 22:11:10.045722 websocket.go:291: 客户端<127.0.0.1:63069>断开 : websocket: close 1001 (going away)
+debug 22:11:10.087437 websocket.go:97: 客户端<127.0.0.1:63079>连接成功
+debug 22:11:10.092219 websocket.go:580: 客户端<127.0.0.1:63079>命令调用:Init,h1,1,2,
+debug 22:11:10.117385 websocket.go:580: 客户端<127.0.0.1:63079>命令调用:Connect
+debug 22:11:10.144024 websocket.go:432: 客户端<127.0.0.1:63079>返回结果<8>:Connect,
+debug 22:11:10.144073 websocket.go:432: 客户端<127.0.0.1:63079>返回结果<7>:Init,67
+debug 22:11:10.145014 websocket.go:580: 客户端<127.0.0.1:63079>命令调用:ExistingMatch
+debug 22:11:10.145060 websocket.go:432: 客户端<127.0.0.1:63079>返回结果<15>:ExistingMatch,0
+debug 22:11:10.248049 websocket.go:580: 客户端<127.0.0.1:63079>命令调用:Matching,0,0,0
+debug 22:11:10.250232 websocket.go:432: 客户端<127.0.0.1:63079>返回结果<10>:Matching,1
+debug 22:11:10.251511 websocket.go:580: 客户端<127.0.0.1:63079>命令调用:EnterRoom,0,0
+debug 22:11:10.255199 websocket.go:432: 客户端<127.0.0.1:63079>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:11:10.255259 websocket.go:432: 客户端<127.0.0.1:63079>返回结果<23>:EnterRoom,1549980670253
+debug 22:11:10.456099 websocket.go:580: 客户端<127.0.0.1:63079>命令调用:Setout
+debug 22:11:10.459282 websocket.go:432: 客户端<127.0.0.1:63079>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:11:10.459370 websocket.go:432: 客户端<127.0.0.1:63079>返回结果<8>:Setout,1
+error 22:11:14.948710 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:11:14.948833 websocket.go:580: 客户端<127.0.0.1:63079>命令调用:ClientConnClose
+debug 22:11:14.949291 websocket.go:432: 客户端<127.0.0.1:63079>返回结果<18>:ClientConnClose,-c
+debug 22:11:14.949345 websocket.go:291: 客户端<127.0.0.1:63079>断开 : websocket: close 1001 (going away)
+debug 22:11:14.989212 websocket.go:97: 客户端<127.0.0.1:63089>连接成功
+debug 22:11:15.000336 websocket.go:580: 客户端<127.0.0.1:63089>命令调用:Init,h1,1,2,
+debug 22:11:15.010741 websocket.go:580: 客户端<127.0.0.1:63089>命令调用:Connect
+debug 22:11:15.041677 websocket.go:432: 客户端<127.0.0.1:63089>返回结果<8>:Connect,
+debug 22:11:15.041746 websocket.go:432: 客户端<127.0.0.1:63089>返回结果<7>:Init,67
+debug 22:11:15.043056 websocket.go:580: 客户端<127.0.0.1:63089>命令调用:ExistingMatch
+debug 22:11:15.043119 websocket.go:432: 客户端<127.0.0.1:63089>返回结果<15>:ExistingMatch,0
+debug 22:11:15.148393 websocket.go:580: 客户端<127.0.0.1:63089>命令调用:Matching,0,0,0
+debug 22:11:15.152464 websocket.go:432: 客户端<127.0.0.1:63089>返回结果<10>:Matching,1
+debug 22:11:15.153401 websocket.go:580: 客户端<127.0.0.1:63089>命令调用:EnterRoom,0,0
+debug 22:11:15.156132 websocket.go:432: 客户端<127.0.0.1:63089>返回结果<23>:EnterRoom,1549980675154
+debug 22:11:15.156182 websocket.go:432: 客户端<127.0.0.1:63089>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:11:15.356417 websocket.go:580: 客户端<127.0.0.1:63089>命令调用:Setout
+debug 22:11:15.360110 websocket.go:432: 客户端<127.0.0.1:63089>返回结果<8>:Setout,1
+debug 22:11:15.360118 websocket.go:432: 客户端<127.0.0.1:63089>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+error 22:11:20.765560 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:11:20.765664 websocket.go:580: 客户端<127.0.0.1:63089>命令调用:ClientConnClose
+debug 22:11:20.766171 websocket.go:432: 客户端<127.0.0.1:63089>返回结果<18>:ClientConnClose,-c
+debug 22:11:20.766247 websocket.go:291: 客户端<127.0.0.1:63089>断开 : websocket: close 1001 (going away)
+debug 22:11:20.808378 websocket.go:97: 客户端<127.0.0.1:63105>连接成功
+debug 22:11:20.816732 websocket.go:580: 客户端<127.0.0.1:63105>命令调用:Init,h1,1,2,
+debug 22:11:20.826601 websocket.go:580: 客户端<127.0.0.1:63105>命令调用:Connect
+debug 22:11:20.862290 websocket.go:432: 客户端<127.0.0.1:63105>返回结果<8>:Connect,
+debug 22:11:20.862373 websocket.go:432: 客户端<127.0.0.1:63105>返回结果<7>:Init,67
+debug 22:11:20.863507 websocket.go:580: 客户端<127.0.0.1:63105>命令调用:ExistingMatch
+debug 22:11:20.863562 websocket.go:432: 客户端<127.0.0.1:63105>返回结果<15>:ExistingMatch,0
+debug 22:11:20.968546 websocket.go:580: 客户端<127.0.0.1:63105>命令调用:Matching,0,0,0
+debug 22:11:20.970309 websocket.go:432: 客户端<127.0.0.1:63105>返回结果<10>:Matching,1
+debug 22:11:20.971509 websocket.go:580: 客户端<127.0.0.1:63105>命令调用:EnterRoom,0,0
+debug 22:11:20.974996 websocket.go:432: 客户端<127.0.0.1:63105>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:11:20.975084 websocket.go:432: 客户端<127.0.0.1:63105>返回结果<23>:EnterRoom,1549980680973
+debug 22:11:21.175323 websocket.go:580: 客户端<127.0.0.1:63105>命令调用:Setout
+debug 22:11:21.180718 websocket.go:432: 客户端<127.0.0.1:63105>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:11:21.180774 websocket.go:432: 客户端<127.0.0.1:63105>返回结果<8>:Setout,1
+error 22:11:21.371679 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:11:21.371788 websocket.go:580: 客户端<127.0.0.1:63105>命令调用:ClientConnClose
+debug 22:11:21.372192 websocket.go:432: 客户端<127.0.0.1:63105>返回结果<18>:ClientConnClose,-c
+debug 22:11:21.372238 websocket.go:291: 客户端<127.0.0.1:63105>断开 : websocket: close 1001 (going away)
+debug 22:11:21.406125 websocket.go:97: 客户端<127.0.0.1:63115>连接成功
+debug 22:11:21.423541 websocket.go:580: 客户端<127.0.0.1:63115>命令调用:Init,h1,1,2,
+debug 22:11:21.428252 websocket.go:580: 客户端<127.0.0.1:63115>命令调用:Connect
+debug 22:11:21.465552 websocket.go:432: 客户端<127.0.0.1:63115>返回结果<8>:Connect,
+debug 22:11:21.465621 websocket.go:432: 客户端<127.0.0.1:63115>返回结果<7>:Init,67
+debug 22:11:21.466722 websocket.go:580: 客户端<127.0.0.1:63115>命令调用:ExistingMatch
+debug 22:11:21.466769 websocket.go:432: 客户端<127.0.0.1:63115>返回结果<15>:ExistingMatch,0
+debug 22:11:21.573438 websocket.go:580: 客户端<127.0.0.1:63115>命令调用:Matching,0,0,0
+debug 22:11:21.575747 websocket.go:432: 客户端<127.0.0.1:63115>返回结果<10>:Matching,1
+debug 22:11:21.577252 websocket.go:580: 客户端<127.0.0.1:63115>命令调用:EnterRoom,0,0
+debug 22:11:21.581093 websocket.go:432: 客户端<127.0.0.1:63115>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:11:21.581216 websocket.go:432: 客户端<127.0.0.1:63115>返回结果<23>:EnterRoom,1549980681579
+debug 22:11:21.779614 websocket.go:580: 客户端<127.0.0.1:63115>命令调用:Setout
+debug 22:11:21.782844 websocket.go:432: 客户端<127.0.0.1:63115>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:11:21.782949 websocket.go:432: 客户端<127.0.0.1:63115>返回结果<8>:Setout,1
+error 22:11:21.980912 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:11:21.981014 websocket.go:580: 客户端<127.0.0.1:63115>命令调用:ClientConnClose
+debug 22:11:21.981372 websocket.go:432: 客户端<127.0.0.1:63115>返回结果<18>:ClientConnClose,-c
+debug 22:11:21.981415 websocket.go:291: 客户端<127.0.0.1:63115>断开 : websocket: close 1001 (going away)
+debug 22:11:22.024975 websocket.go:97: 客户端<127.0.0.1:63125>连接成功
+debug 22:11:22.030557 websocket.go:580: 客户端<127.0.0.1:63125>命令调用:Init,h1,1,2,
+debug 22:11:22.041455 websocket.go:580: 客户端<127.0.0.1:63125>命令调用:Connect
+debug 22:11:22.073115 websocket.go:432: 客户端<127.0.0.1:63125>返回结果<8>:Connect,
+debug 22:11:22.073163 websocket.go:432: 客户端<127.0.0.1:63125>返回结果<7>:Init,67
+debug 22:11:22.074099 websocket.go:580: 客户端<127.0.0.1:63125>命令调用:ExistingMatch
+debug 22:11:22.074143 websocket.go:432: 客户端<127.0.0.1:63125>返回结果<15>:ExistingMatch,0
+debug 22:11:22.179381 websocket.go:580: 客户端<127.0.0.1:63125>命令调用:Matching,0,0,0
+debug 22:11:22.183885 websocket.go:432: 客户端<127.0.0.1:63125>返回结果<10>:Matching,1
+debug 22:11:22.185064 websocket.go:580: 客户端<127.0.0.1:63125>命令调用:EnterRoom,0,0
+debug 22:11:22.188756 websocket.go:432: 客户端<127.0.0.1:63125>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:11:22.188847 websocket.go:432: 客户端<127.0.0.1:63125>返回结果<23>:EnterRoom,1549980682186
+debug 22:11:22.390061 websocket.go:580: 客户端<127.0.0.1:63125>命令调用:Setout
+debug 22:11:22.392916 websocket.go:432: 客户端<127.0.0.1:63125>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:11:22.392963 websocket.go:432: 客户端<127.0.0.1:63125>返回结果<8>:Setout,1
+error 22:11:22.574051 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:11:22.574133 websocket.go:580: 客户端<127.0.0.1:63125>命令调用:ClientConnClose
+debug 22:11:22.574476 websocket.go:432: 客户端<127.0.0.1:63125>返回结果<18>:ClientConnClose,-c
+debug 22:11:22.574516 websocket.go:291: 客户端<127.0.0.1:63125>断开 : websocket: close 1001 (going away)
+debug 22:11:22.609924 websocket.go:97: 客户端<127.0.0.1:63135>连接成功
+debug 22:11:22.613622 websocket.go:580: 客户端<127.0.0.1:63135>命令调用:Init,h1,1,2,
+debug 22:11:22.622753 websocket.go:580: 客户端<127.0.0.1:63135>命令调用:Connect
+debug 22:11:22.652671 websocket.go:432: 客户端<127.0.0.1:63135>返回结果<8>:Connect,
+debug 22:11:22.652729 websocket.go:432: 客户端<127.0.0.1:63135>返回结果<7>:Init,67
+debug 22:11:22.653713 websocket.go:580: 客户端<127.0.0.1:63135>命令调用:ExistingMatch
+debug 22:11:22.653756 websocket.go:432: 客户端<127.0.0.1:63135>返回结果<15>:ExistingMatch,0
+debug 22:11:22.758278 websocket.go:580: 客户端<127.0.0.1:63135>命令调用:Matching,0,0,0
+debug 22:11:22.760486 websocket.go:432: 客户端<127.0.0.1:63135>返回结果<10>:Matching,1
+debug 22:11:22.762025 websocket.go:580: 客户端<127.0.0.1:63135>命令调用:EnterRoom,0,0
+debug 22:11:22.765611 websocket.go:432: 客户端<127.0.0.1:63135>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:11:22.765757 websocket.go:432: 客户端<127.0.0.1:63135>返回结果<23>:EnterRoom,1549980682763
+debug 22:11:22.966668 websocket.go:580: 客户端<127.0.0.1:63135>命令调用:Setout
+debug 22:11:22.969684 websocket.go:432: 客户端<127.0.0.1:63135>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:11:22.969747 websocket.go:432: 客户端<127.0.0.1:63135>返回结果<8>:Setout,1
+error 22:11:23.146223 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:11:23.146336 websocket.go:580: 客户端<127.0.0.1:63135>命令调用:ClientConnClose
+debug 22:11:23.146768 websocket.go:432: 客户端<127.0.0.1:63135>返回结果<18>:ClientConnClose,-c
+debug 22:11:23.146817 websocket.go:291: 客户端<127.0.0.1:63135>断开 : websocket: close 1001 (going away)
+debug 22:11:23.186608 websocket.go:97: 客户端<127.0.0.1:63147>连接成功
+debug 22:11:23.199518 websocket.go:580: 客户端<127.0.0.1:63147>命令调用:Init,h1,1,2,
+debug 22:11:23.201780 websocket.go:580: 客户端<127.0.0.1:63147>命令调用:Connect
+debug 22:11:23.229906 websocket.go:432: 客户端<127.0.0.1:63147>返回结果<8>:Connect,
+debug 22:11:23.229951 websocket.go:432: 客户端<127.0.0.1:63147>返回结果<7>:Init,67
+debug 22:11:23.231038 websocket.go:580: 客户端<127.0.0.1:63147>命令调用:ExistingMatch
+debug 22:11:23.231079 websocket.go:432: 客户端<127.0.0.1:63147>返回结果<15>:ExistingMatch,0
+debug 22:11:23.336955 websocket.go:580: 客户端<127.0.0.1:63147>命令调用:Matching,0,0,0
+debug 22:11:23.339063 websocket.go:432: 客户端<127.0.0.1:63147>返回结果<10>:Matching,1
+debug 22:11:23.340622 websocket.go:580: 客户端<127.0.0.1:63147>命令调用:EnterRoom,0,0
+debug 22:11:23.344063 websocket.go:432: 客户端<127.0.0.1:63147>返回结果<23>:EnterRoom,1549980683342
+debug 22:11:23.344148 websocket.go:432: 客户端<127.0.0.1:63147>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:11:23.546308 websocket.go:580: 客户端<127.0.0.1:63147>命令调用:Setout
+debug 22:11:23.548862 websocket.go:432: 客户端<127.0.0.1:63147>返回结果<8>:Setout,1
+debug 22:11:23.548936 websocket.go:432: 客户端<127.0.0.1:63147>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+error 22:11:32.021423 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:11:32.021529 websocket.go:580: 客户端<127.0.0.1:63147>命令调用:ClientConnClose
+debug 22:11:32.021973 websocket.go:432: 客户端<127.0.0.1:63147>返回结果<18>:ClientConnClose,-c
+debug 22:11:32.022056 websocket.go:291: 客户端<127.0.0.1:63147>断开 : websocket: close 1001 (going away)
+debug 22:11:32.063217 websocket.go:97: 客户端<127.0.0.1:63161>连接成功
+error 22:11:33.069181 websocket.go:308: websocket err:read tcp 127.0.0.1:11280->127.0.0.1:63161: use of closed network connection
+debug 22:11:33.069307 websocket.go:580: 客户端<127.0.0.1:63161>命令调用:ClientConnClose
+debug 22:11:33.069376 websocket.go:291: 客户端<127.0.0.1:63161>断开 : read tcp 127.0.0.1:11280->127.0.0.1:63161: use of closed network connection
+debug 22:11:37.617548 websocket.go:97: 客户端<127.0.0.1:63166>连接成功
+error 22:11:38.620056 websocket.go:308: websocket err:read tcp 127.0.0.1:11280->127.0.0.1:63166: use of closed network connection
+debug 22:11:38.621156 websocket.go:580: 客户端<127.0.0.1:63166>命令调用:ClientConnClose
+debug 22:11:38.621226 websocket.go:291: 客户端<127.0.0.1:63166>断开 : read tcp 127.0.0.1:11280->127.0.0.1:63166: use of closed network connection
+debug 22:11:40.189712 websocket.go:97: 客户端<127.0.0.1:63171>连接成功
+error 22:11:41.195196 websocket.go:308: websocket err:read tcp 127.0.0.1:11280->127.0.0.1:63171: use of closed network connection
+debug 22:11:41.198295 websocket.go:580: 客户端<127.0.0.1:63171>命令调用:ClientConnClose
+debug 22:11:41.198360 websocket.go:291: 客户端<127.0.0.1:63171>断开 : read tcp 127.0.0.1:11280->127.0.0.1:63171: use of closed network connection
+debug 22:12:01.747861 websocket.go:97: 客户端<127.0.0.1:63215>连接成功
+error 22:12:02.760871 websocket.go:308: websocket err:read tcp 127.0.0.1:11280->127.0.0.1:63215: use of closed network connection
+debug 22:12:02.763452 websocket.go:580: 客户端<127.0.0.1:63215>命令调用:ClientConnClose
+debug 22:12:02.763509 websocket.go:291: 客户端<127.0.0.1:63215>断开 : read tcp 127.0.0.1:11280->127.0.0.1:63215: use of closed network connection
+debug 22:12:39.904947 websocket.go:97: 客户端<127.0.0.1:63237>连接成功
+debug 22:12:39.920054 websocket.go:580: 客户端<127.0.0.1:63237>命令调用:Init,h1,1,2,
+debug 22:12:39.922184 websocket.go:580: 客户端<127.0.0.1:63237>命令调用:Connect
+debug 22:12:39.953672 websocket.go:432: 客户端<127.0.0.1:63237>返回结果<8>:Connect,
+debug 22:12:39.953730 websocket.go:432: 客户端<127.0.0.1:63237>返回结果<7>:Init,67
+debug 22:12:39.954859 websocket.go:580: 客户端<127.0.0.1:63237>命令调用:ExistingMatch
+debug 22:12:39.954946 websocket.go:432: 客户端<127.0.0.1:63237>返回结果<15>:ExistingMatch,0
+debug 22:12:40.060904 websocket.go:580: 客户端<127.0.0.1:63237>命令调用:Matching,0,0,0
+debug 22:12:40.064452 websocket.go:432: 客户端<127.0.0.1:63237>返回结果<10>:Matching,1
+debug 22:12:40.065579 websocket.go:580: 客户端<127.0.0.1:63237>命令调用:EnterRoom,0,0
+debug 22:12:40.069235 websocket.go:432: 客户端<127.0.0.1:63237>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:12:40.069310 websocket.go:432: 客户端<127.0.0.1:63237>返回结果<23>:EnterRoom,1549980760067
+debug 22:12:40.268380 websocket.go:580: 客户端<127.0.0.1:63237>命令调用:Setout
+debug 22:12:40.273905 websocket.go:432: 客户端<127.0.0.1:63237>返回结果<8>:Setout,1
+debug 22:12:40.273978 websocket.go:432: 客户端<127.0.0.1:63237>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+error 22:12:44.014945 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:12:44.015044 websocket.go:580: 客户端<127.0.0.1:63237>命令调用:ClientConnClose
+debug 22:12:44.015514 websocket.go:432: 客户端<127.0.0.1:63237>返回结果<18>:ClientConnClose,-c
+debug 22:12:44.015598 websocket.go:291: 客户端<127.0.0.1:63237>断开 : websocket: close 1001 (going away)
+debug 22:12:44.056243 websocket.go:97: 客户端<127.0.0.1:63243>连接成功
+debug 22:12:44.072648 websocket.go:580: 客户端<127.0.0.1:63243>命令调用:Init,h1,1,2,
+debug 22:12:44.092724 websocket.go:580: 客户端<127.0.0.1:63243>命令调用:Connect
+debug 22:12:44.126299 websocket.go:432: 客户端<127.0.0.1:63243>返回结果<8>:Connect,
+debug 22:12:44.126357 websocket.go:432: 客户端<127.0.0.1:63243>返回结果<7>:Init,67
+debug 22:12:44.127671 websocket.go:580: 客户端<127.0.0.1:63243>命令调用:ExistingMatch
+debug 22:12:44.128100 websocket.go:432: 客户端<127.0.0.1:63243>返回结果<15>:ExistingMatch,0
+debug 22:12:44.232220 websocket.go:580: 客户端<127.0.0.1:63243>命令调用:Matching,0,0,0
+debug 22:12:44.234200 websocket.go:432: 客户端<127.0.0.1:63243>返回结果<10>:Matching,1
+debug 22:12:44.235419 websocket.go:580: 客户端<127.0.0.1:63243>命令调用:EnterRoom,0,0
+debug 22:12:44.238896 websocket.go:432: 客户端<127.0.0.1:63243>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:12:44.239027 websocket.go:432: 客户端<127.0.0.1:63243>返回结果<23>:EnterRoom,1549980764237
+debug 22:12:44.439620 websocket.go:580: 客户端<127.0.0.1:63243>命令调用:Setout
+debug 22:12:44.442751 websocket.go:432: 客户端<127.0.0.1:63243>返回结果<8>:Setout,1
+debug 22:12:44.442755 websocket.go:432: 客户端<127.0.0.1:63243>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+error 22:12:49.342227 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:12:49.342320 websocket.go:580: 客户端<127.0.0.1:63243>命令调用:ClientConnClose
+debug 22:12:49.342825 websocket.go:432: 客户端<127.0.0.1:63243>返回结果<18>:ClientConnClose,-c
+debug 22:12:49.342883 websocket.go:291: 客户端<127.0.0.1:63243>断开 : websocket: close 1001 (going away)
+debug 22:12:49.384900 websocket.go:97: 客户端<127.0.0.1:63256>连接成功
+debug 22:12:49.394591 websocket.go:580: 客户端<127.0.0.1:63256>命令调用:Init,h1,1,2,
+debug 22:12:49.401979 websocket.go:580: 客户端<127.0.0.1:63256>命令调用:Connect
+debug 22:12:49.442678 websocket.go:432: 客户端<127.0.0.1:63256>返回结果<8>:Connect,
+debug 22:12:49.442724 websocket.go:432: 客户端<127.0.0.1:63256>返回结果<7>:Init,67
+debug 22:12:49.443868 websocket.go:580: 客户端<127.0.0.1:63256>命令调用:ExistingMatch
+debug 22:12:49.443919 websocket.go:432: 客户端<127.0.0.1:63256>返回结果<15>:ExistingMatch,0
+debug 22:12:49.550847 websocket.go:580: 客户端<127.0.0.1:63256>命令调用:Matching,0,0,0
+debug 22:12:49.552803 websocket.go:432: 客户端<127.0.0.1:63256>返回结果<10>:Matching,1
+debug 22:12:49.554046 websocket.go:580: 客户端<127.0.0.1:63256>命令调用:EnterRoom,0,0
+debug 22:12:49.557790 websocket.go:432: 客户端<127.0.0.1:63256>返回结果<23>:EnterRoom,1549980769555
+debug 22:12:49.557885 websocket.go:432: 客户端<127.0.0.1:63256>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:12:49.757057 websocket.go:580: 客户端<127.0.0.1:63256>命令调用:Setout
+debug 22:12:49.759972 websocket.go:432: 客户端<127.0.0.1:63256>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:12:49.759980 websocket.go:432: 客户端<127.0.0.1:63256>返回结果<8>:Setout,1
+error 22:13:01.271168 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:01.271270 websocket.go:580: 客户端<127.0.0.1:63256>命令调用:ClientConnClose
+debug 22:13:01.272602 websocket.go:432: 客户端<127.0.0.1:63256>返回结果<18>:ClientConnClose,-c
+debug 22:13:01.272673 websocket.go:291: 客户端<127.0.0.1:63256>断开 : websocket: close 1001 (going away)
+debug 22:13:23.988484 websocket.go:97: 客户端<127.0.0.1:63300>连接成功
+debug 22:13:23.997630 websocket.go:580: 客户端<127.0.0.1:63300>命令调用:Init,h1,1,2,
+debug 22:13:23.999722 websocket.go:580: 客户端<127.0.0.1:63300>命令调用:Connect
+debug 22:13:24.028416 websocket.go:432: 客户端<127.0.0.1:63300>返回结果<8>:Connect,
+debug 22:13:24.028465 websocket.go:432: 客户端<127.0.0.1:63300>返回结果<7>:Init,67
+debug 22:13:24.030024 websocket.go:580: 客户端<127.0.0.1:63300>命令调用:ExistingMatch
+debug 22:13:24.030079 websocket.go:432: 客户端<127.0.0.1:63300>返回结果<15>:ExistingMatch,0
+debug 22:13:24.133241 websocket.go:580: 客户端<127.0.0.1:63300>命令调用:Matching,0,0,0
+debug 22:13:24.136700 websocket.go:432: 客户端<127.0.0.1:63300>返回结果<10>:Matching,1
+debug 22:13:24.137825 websocket.go:580: 客户端<127.0.0.1:63300>命令调用:EnterRoom,0,0
+debug 22:13:24.140085 websocket.go:432: 客户端<127.0.0.1:63300>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:24.140145 websocket.go:432: 客户端<127.0.0.1:63300>返回结果<23>:EnterRoom,1549980804138
+debug 22:13:24.342065 websocket.go:580: 客户端<127.0.0.1:63300>命令调用:Setout
+debug 22:13:24.344826 websocket.go:432: 客户端<127.0.0.1:63300>返回结果<8>:Setout,1
+debug 22:13:24.344827 websocket.go:432: 客户端<127.0.0.1:63300>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+error 22:13:27.195522 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:27.195648 websocket.go:580: 客户端<127.0.0.1:63300>命令调用:ClientConnClose
+debug 22:13:27.196108 websocket.go:432: 客户端<127.0.0.1:63300>返回结果<18>:ClientConnClose,-c
+debug 22:13:27.196169 websocket.go:291: 客户端<127.0.0.1:63300>断开 : websocket: close 1001 (going away)
+debug 22:13:27.241033 websocket.go:97: 客户端<127.0.0.1:63311>连接成功
+debug 22:13:27.248109 websocket.go:580: 客户端<127.0.0.1:63311>命令调用:Init,h1,1,2,
+debug 22:13:27.253453 websocket.go:580: 客户端<127.0.0.1:63311>命令调用:Connect
+debug 22:13:27.287589 websocket.go:432: 客户端<127.0.0.1:63311>返回结果<8>:Connect,
+debug 22:13:27.287640 websocket.go:432: 客户端<127.0.0.1:63311>返回结果<7>:Init,67
+debug 22:13:27.288631 websocket.go:580: 客户端<127.0.0.1:63311>命令调用:ExistingMatch
+debug 22:13:27.288685 websocket.go:432: 客户端<127.0.0.1:63311>返回结果<15>:ExistingMatch,0
+debug 22:13:27.393710 websocket.go:580: 客户端<127.0.0.1:63311>命令调用:Matching,0,0,0
+debug 22:13:27.396052 websocket.go:432: 客户端<127.0.0.1:63311>返回结果<10>:Matching,1
+debug 22:13:27.397445 websocket.go:580: 客户端<127.0.0.1:63311>命令调用:EnterRoom,0,0
+debug 22:13:27.401782 websocket.go:432: 客户端<127.0.0.1:63311>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:27.401865 websocket.go:432: 客户端<127.0.0.1:63311>返回结果<23>:EnterRoom,1549980807399
+debug 22:13:27.599579 websocket.go:580: 客户端<127.0.0.1:63311>命令调用:Setout
+debug 22:13:27.603884 websocket.go:432: 客户端<127.0.0.1:63311>返回结果<8>:Setout,1
+debug 22:13:27.603884 websocket.go:432: 客户端<127.0.0.1:63311>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+error 22:13:31.434553 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:31.434687 websocket.go:580: 客户端<127.0.0.1:63311>命令调用:ClientConnClose
+debug 22:13:31.435196 websocket.go:432: 客户端<127.0.0.1:63311>返回结果<18>:ClientConnClose,-c
+debug 22:13:31.435245 websocket.go:291: 客户端<127.0.0.1:63311>断开 : websocket: close 1001 (going away)
+debug 22:13:31.480794 websocket.go:97: 客户端<127.0.0.1:63323>连接成功
+debug 22:13:31.489383 websocket.go:580: 客户端<127.0.0.1:63323>命令调用:Init,h1,1,2,
+debug 22:13:31.496976 websocket.go:580: 客户端<127.0.0.1:63323>命令调用:Connect
+debug 22:13:31.533895 websocket.go:432: 客户端<127.0.0.1:63323>返回结果<8>:Connect,
+debug 22:13:31.533956 websocket.go:432: 客户端<127.0.0.1:63323>返回结果<7>:Init,67
+debug 22:13:31.535022 websocket.go:580: 客户端<127.0.0.1:63323>命令调用:ExistingMatch
+debug 22:13:31.535074 websocket.go:432: 客户端<127.0.0.1:63323>返回结果<15>:ExistingMatch,0
+debug 22:13:31.641006 websocket.go:580: 客户端<127.0.0.1:63323>命令调用:Matching,0,0,0
+debug 22:13:31.645548 websocket.go:432: 客户端<127.0.0.1:63323>返回结果<10>:Matching,1
+debug 22:13:31.646712 websocket.go:580: 客户端<127.0.0.1:63323>命令调用:EnterRoom,0,0
+debug 22:13:31.650834 websocket.go:432: 客户端<127.0.0.1:63323>返回结果<23>:EnterRoom,1549980811648
+debug 22:13:31.650911 websocket.go:432: 客户端<127.0.0.1:63323>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:31.848122 websocket.go:580: 客户端<127.0.0.1:63323>命令调用:Setout
+debug 22:13:31.851059 websocket.go:432: 客户端<127.0.0.1:63323>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:13:31.851154 websocket.go:432: 客户端<127.0.0.1:63323>返回结果<8>:Setout,1
+error 22:13:39.210764 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:39.210889 websocket.go:580: 客户端<127.0.0.1:63323>命令调用:ClientConnClose
+debug 22:13:39.211400 websocket.go:432: 客户端<127.0.0.1:63323>返回结果<18>:ClientConnClose,-c
+debug 22:13:39.211471 websocket.go:291: 客户端<127.0.0.1:63323>断开 : websocket: close 1001 (going away)
+debug 22:13:39.262880 websocket.go:97: 客户端<127.0.0.1:63335>连接成功
+debug 22:13:39.269862 websocket.go:580: 客户端<127.0.0.1:63335>命令调用:Init,h1,1,2,
+debug 22:13:39.279687 websocket.go:580: 客户端<127.0.0.1:63335>命令调用:Connect
+debug 22:13:39.309002 websocket.go:432: 客户端<127.0.0.1:63335>返回结果<8>:Connect,
+debug 22:13:39.309049 websocket.go:432: 客户端<127.0.0.1:63335>返回结果<7>:Init,67
+debug 22:13:39.309953 websocket.go:580: 客户端<127.0.0.1:63335>命令调用:ExistingMatch
+debug 22:13:39.309991 websocket.go:432: 客户端<127.0.0.1:63335>返回结果<15>:ExistingMatch,0
+debug 22:13:39.414920 websocket.go:580: 客户端<127.0.0.1:63335>命令调用:Matching,0,0,0
+debug 22:13:39.419383 websocket.go:432: 客户端<127.0.0.1:63335>返回结果<10>:Matching,1
+debug 22:13:39.420561 websocket.go:580: 客户端<127.0.0.1:63335>命令调用:EnterRoom,0,0
+debug 22:13:39.424258 websocket.go:432: 客户端<127.0.0.1:63335>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:39.424308 websocket.go:432: 客户端<127.0.0.1:63335>返回结果<23>:EnterRoom,1549980819421
+debug 22:13:39.625630 websocket.go:580: 客户端<127.0.0.1:63335>命令调用:Setout
+debug 22:13:39.629722 websocket.go:432: 客户端<127.0.0.1:63335>返回结果<8>:Setout,1
+debug 22:13:39.629723 websocket.go:432: 客户端<127.0.0.1:63335>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+error 22:13:39.746511 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:39.746629 websocket.go:580: 客户端<127.0.0.1:63335>命令调用:ClientConnClose
+debug 22:13:39.747050 websocket.go:432: 客户端<127.0.0.1:63335>返回结果<18>:ClientConnClose,-c
+debug 22:13:39.747143 websocket.go:291: 客户端<127.0.0.1:63335>断开 : websocket: close 1001 (going away)
+debug 22:13:39.784875 websocket.go:97: 客户端<127.0.0.1:63345>连接成功
+debug 22:13:39.790687 websocket.go:580: 客户端<127.0.0.1:63345>命令调用:Init,h1,1,2,
+debug 22:13:39.801256 websocket.go:580: 客户端<127.0.0.1:63345>命令调用:Connect
+debug 22:13:39.836284 websocket.go:432: 客户端<127.0.0.1:63345>返回结果<8>:Connect,
+debug 22:13:39.836343 websocket.go:432: 客户端<127.0.0.1:63345>返回结果<7>:Init,67
+debug 22:13:39.837375 websocket.go:580: 客户端<127.0.0.1:63345>命令调用:ExistingMatch
+debug 22:13:39.837425 websocket.go:432: 客户端<127.0.0.1:63345>返回结果<15>:ExistingMatch,0
+debug 22:13:39.940867 websocket.go:580: 客户端<127.0.0.1:63345>命令调用:Matching,0,0,0
+debug 22:13:39.943092 websocket.go:432: 客户端<127.0.0.1:63345>返回结果<10>:Matching,1
+debug 22:13:39.944586 websocket.go:580: 客户端<127.0.0.1:63345>命令调用:EnterRoom,0,0
+debug 22:13:39.948565 websocket.go:432: 客户端<127.0.0.1:63345>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:39.948694 websocket.go:432: 客户端<127.0.0.1:63345>返回结果<23>:EnterRoom,1549980819946
+debug 22:13:40.147162 websocket.go:580: 客户端<127.0.0.1:63345>命令调用:Setout
+debug 22:13:40.152725 websocket.go:432: 客户端<127.0.0.1:63345>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:13:40.152813 websocket.go:432: 客户端<127.0.0.1:63345>返回结果<8>:Setout,1
+error 22:13:40.506660 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:40.506764 websocket.go:580: 客户端<127.0.0.1:63345>命令调用:ClientConnClose
+debug 22:13:40.507278 websocket.go:432: 客户端<127.0.0.1:63345>返回结果<18>:ClientConnClose,-c
+debug 22:13:40.507335 websocket.go:291: 客户端<127.0.0.1:63345>断开 : websocket: close 1001 (going away)
+debug 22:13:40.543256 websocket.go:97: 客户端<127.0.0.1:63355>连接成功
+debug 22:13:40.552559 websocket.go:580: 客户端<127.0.0.1:63355>命令调用:Init,h1,1,2,
+debug 22:13:40.554663 websocket.go:580: 客户端<127.0.0.1:63355>命令调用:Connect
+debug 22:13:40.593745 websocket.go:432: 客户端<127.0.0.1:63355>返回结果<8>:Connect,
+debug 22:13:40.593822 websocket.go:432: 客户端<127.0.0.1:63355>返回结果<7>:Init,67
+debug 22:13:40.595378 websocket.go:580: 客户端<127.0.0.1:63355>命令调用:ExistingMatch
+debug 22:13:40.595426 websocket.go:432: 客户端<127.0.0.1:63355>返回结果<15>:ExistingMatch,0
+debug 22:13:40.699971 websocket.go:580: 客户端<127.0.0.1:63355>命令调用:Matching,0,0,0
+debug 22:13:40.702397 websocket.go:432: 客户端<127.0.0.1:63355>返回结果<10>:Matching,1
+debug 22:13:40.703761 websocket.go:580: 客户端<127.0.0.1:63355>命令调用:EnterRoom,0,0
+debug 22:13:40.707911 websocket.go:432: 客户端<127.0.0.1:63355>返回结果<23>:EnterRoom,1549980820706
+debug 22:13:40.707992 websocket.go:432: 客户端<127.0.0.1:63355>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:40.905717 websocket.go:580: 客户端<127.0.0.1:63355>命令调用:Setout
+debug 22:13:40.908715 websocket.go:432: 客户端<127.0.0.1:63355>返回结果<8>:Setout,1
+debug 22:13:40.908716 websocket.go:432: 客户端<127.0.0.1:63355>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+error 22:13:41.250356 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:41.250442 websocket.go:580: 客户端<127.0.0.1:63355>命令调用:ClientConnClose
+debug 22:13:41.250854 websocket.go:432: 客户端<127.0.0.1:63355>返回结果<18>:ClientConnClose,-c
+debug 22:13:41.250905 websocket.go:291: 客户端<127.0.0.1:63355>断开 : websocket: close 1001 (going away)
+debug 22:13:41.285355 websocket.go:97: 客户端<127.0.0.1:63366>连接成功
+debug 22:13:41.296109 websocket.go:580: 客户端<127.0.0.1:63366>命令调用:Init,h1,1,2,
+debug 22:13:41.308444 websocket.go:580: 客户端<127.0.0.1:63366>命令调用:Connect
+debug 22:13:41.339556 websocket.go:432: 客户端<127.0.0.1:63366>返回结果<8>:Connect,
+debug 22:13:41.339607 websocket.go:432: 客户端<127.0.0.1:63366>返回结果<7>:Init,67
+debug 22:13:41.340646 websocket.go:580: 客户端<127.0.0.1:63366>命令调用:ExistingMatch
+debug 22:13:41.340689 websocket.go:432: 客户端<127.0.0.1:63366>返回结果<15>:ExistingMatch,0
+debug 22:13:41.444013 websocket.go:580: 客户端<127.0.0.1:63366>命令调用:Matching,0,0,0
+debug 22:13:41.445873 websocket.go:432: 客户端<127.0.0.1:63366>返回结果<10>:Matching,1
+debug 22:13:41.446997 websocket.go:580: 客户端<127.0.0.1:63366>命令调用:EnterRoom,0,0
+debug 22:13:41.450352 websocket.go:432: 客户端<127.0.0.1:63366>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:41.450433 websocket.go:432: 客户端<127.0.0.1:63366>返回结果<23>:EnterRoom,1549980821448
+debug 22:13:41.650460 websocket.go:580: 客户端<127.0.0.1:63366>命令调用:Setout
+debug 22:13:41.656012 websocket.go:432: 客户端<127.0.0.1:63366>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:13:41.656081 websocket.go:432: 客户端<127.0.0.1:63366>返回结果<8>:Setout,1
+error 22:13:41.994551 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:41.994658 websocket.go:580: 客户端<127.0.0.1:63366>命令调用:ClientConnClose
+debug 22:13:41.995092 websocket.go:432: 客户端<127.0.0.1:63366>返回结果<18>:ClientConnClose,-c
+debug 22:13:41.995146 websocket.go:291: 客户端<127.0.0.1:63366>断开 : websocket: close 1001 (going away)
+debug 22:13:42.029941 websocket.go:97: 客户端<127.0.0.1:63378>连接成功
+debug 22:13:42.034108 websocket.go:580: 客户端<127.0.0.1:63378>命令调用:Init,h1,1,2,
+debug 22:13:42.044273 websocket.go:580: 客户端<127.0.0.1:63378>命令调用:Connect
+debug 22:13:42.073738 websocket.go:432: 客户端<127.0.0.1:63378>返回结果<8>:Connect,
+debug 22:13:42.073782 websocket.go:432: 客户端<127.0.0.1:63378>返回结果<7>:Init,67
+debug 22:13:42.074791 websocket.go:580: 客户端<127.0.0.1:63378>命令调用:ExistingMatch
+debug 22:13:42.074826 websocket.go:432: 客户端<127.0.0.1:63378>返回结果<15>:ExistingMatch,0
+debug 22:13:42.176368 websocket.go:580: 客户端<127.0.0.1:63378>命令调用:Matching,0,0,0
+debug 22:13:42.181056 websocket.go:432: 客户端<127.0.0.1:63378>返回结果<10>:Matching,1
+debug 22:13:42.182256 websocket.go:580: 客户端<127.0.0.1:63378>命令调用:EnterRoom,0,0
+debug 22:13:42.186020 websocket.go:432: 客户端<127.0.0.1:63378>返回结果<23>:EnterRoom,1549980822184
+debug 22:13:42.186107 websocket.go:432: 客户端<127.0.0.1:63378>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:42.385695 websocket.go:580: 客户端<127.0.0.1:63378>命令调用:Setout
+debug 22:13:42.388369 websocket.go:432: 客户端<127.0.0.1:63378>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:13:42.388470 websocket.go:432: 客户端<127.0.0.1:63378>返回结果<8>:Setout,1
+error 22:13:42.738173 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:42.738273 websocket.go:580: 客户端<127.0.0.1:63378>命令调用:ClientConnClose
+debug 22:13:42.738773 websocket.go:432: 客户端<127.0.0.1:63378>返回结果<18>:ClientConnClose,-c
+debug 22:13:42.738821 websocket.go:291: 客户端<127.0.0.1:63378>断开 : websocket: close 1001 (going away)
+debug 22:13:42.771745 websocket.go:97: 客户端<127.0.0.1:63388>连接成功
+debug 22:13:42.779975 websocket.go:580: 客户端<127.0.0.1:63388>命令调用:Init,h1,1,2,
+debug 22:13:42.790354 websocket.go:580: 客户端<127.0.0.1:63388>命令调用:Connect
+debug 22:13:42.822695 websocket.go:432: 客户端<127.0.0.1:63388>返回结果<8>:Connect,
+debug 22:13:42.822746 websocket.go:432: 客户端<127.0.0.1:63388>返回结果<7>:Init,67
+debug 22:13:42.824052 websocket.go:580: 客户端<127.0.0.1:63388>命令调用:ExistingMatch
+debug 22:13:42.824093 websocket.go:432: 客户端<127.0.0.1:63388>返回结果<15>:ExistingMatch,0
+debug 22:13:42.929475 websocket.go:580: 客户端<127.0.0.1:63388>命令调用:Matching,0,0,0
+debug 22:13:42.931475 websocket.go:432: 客户端<127.0.0.1:63388>返回结果<10>:Matching,1
+debug 22:13:42.932803 websocket.go:580: 客户端<127.0.0.1:63388>命令调用:EnterRoom,0,0
+debug 22:13:42.936280 websocket.go:432: 客户端<127.0.0.1:63388>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:42.936336 websocket.go:432: 客户端<127.0.0.1:63388>返回结果<23>:EnterRoom,1549980822934
+debug 22:13:43.136206 websocket.go:580: 客户端<127.0.0.1:63388>命令调用:Setout
+debug 22:13:43.141080 websocket.go:432: 客户端<127.0.0.1:63388>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:13:43.141153 websocket.go:432: 客户端<127.0.0.1:63388>返回结果<8>:Setout,1
+error 22:13:43.458496 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:43.458605 websocket.go:580: 客户端<127.0.0.1:63388>命令调用:ClientConnClose
+debug 22:13:43.459061 websocket.go:432: 客户端<127.0.0.1:63388>返回结果<18>:ClientConnClose,-c
+debug 22:13:43.459112 websocket.go:291: 客户端<127.0.0.1:63388>断开 : websocket: close 1001 (going away)
+debug 22:13:43.494647 websocket.go:97: 客户端<127.0.0.1:63398>连接成功
+debug 22:13:43.500613 websocket.go:580: 客户端<127.0.0.1:63398>命令调用:Init,h1,1,2,
+debug 22:13:43.510431 websocket.go:580: 客户端<127.0.0.1:63398>命令调用:Connect
+debug 22:13:43.543902 websocket.go:432: 客户端<127.0.0.1:63398>返回结果<8>:Connect,
+debug 22:13:43.543961 websocket.go:432: 客户端<127.0.0.1:63398>返回结果<7>:Init,67
+debug 22:13:43.545027 websocket.go:580: 客户端<127.0.0.1:63398>命令调用:ExistingMatch
+debug 22:13:43.545077 websocket.go:432: 客户端<127.0.0.1:63398>返回结果<15>:ExistingMatch,0
+debug 22:13:43.648195 websocket.go:580: 客户端<127.0.0.1:63398>命令调用:Matching,0,0,0
+debug 22:13:43.653149 websocket.go:432: 客户端<127.0.0.1:63398>返回结果<10>:Matching,1
+debug 22:13:43.654329 websocket.go:580: 客户端<127.0.0.1:63398>命令调用:EnterRoom,0,0
+debug 22:13:43.657817 websocket.go:432: 客户端<127.0.0.1:63398>返回结果<23>:EnterRoom,1549980823655
+debug 22:13:43.657880 websocket.go:432: 客户端<127.0.0.1:63398>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:43.858115 websocket.go:580: 客户端<127.0.0.1:63398>命令调用:Setout
+debug 22:13:43.861057 websocket.go:432: 客户端<127.0.0.1:63398>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:13:43.861132 websocket.go:432: 客户端<127.0.0.1:63398>返回结果<8>:Setout,1
+error 22:13:44.099489 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:44.108505 websocket.go:580: 客户端<127.0.0.1:63398>命令调用:ClientConnClose
+debug 22:13:44.109013 websocket.go:432: 客户端<127.0.0.1:63398>返回结果<18>:ClientConnClose,-c
+debug 22:13:44.109074 websocket.go:291: 客户端<127.0.0.1:63398>断开 : websocket: close 1001 (going away)
+debug 22:13:44.138416 websocket.go:97: 客户端<127.0.0.1:63426>连接成功
+debug 22:13:44.147033 websocket.go:580: 客户端<127.0.0.1:63426>命令调用:Init,h1,1,2,
+debug 22:13:44.149096 websocket.go:580: 客户端<127.0.0.1:63426>命令调用:Connect
+debug 22:13:44.178131 websocket.go:432: 客户端<127.0.0.1:63426>返回结果<8>:Connect,
+debug 22:13:44.178191 websocket.go:432: 客户端<127.0.0.1:63426>返回结果<7>:Init,67
+debug 22:13:44.178989 websocket.go:580: 客户端<127.0.0.1:63426>命令调用:ExistingMatch
+debug 22:13:44.179026 websocket.go:432: 客户端<127.0.0.1:63426>返回结果<15>:ExistingMatch,0
+debug 22:13:44.284338 websocket.go:580: 客户端<127.0.0.1:63426>命令调用:Matching,0,0,0
+debug 22:13:44.286361 websocket.go:432: 客户端<127.0.0.1:63426>返回结果<10>:Matching,1
+debug 22:13:44.287573 websocket.go:580: 客户端<127.0.0.1:63426>命令调用:EnterRoom,0,0
+debug 22:13:44.291263 websocket.go:432: 客户端<127.0.0.1:63426>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:44.291343 websocket.go:432: 客户端<127.0.0.1:63426>返回结果<23>:EnterRoom,1549980824289
+debug 22:13:44.490158 websocket.go:580: 客户端<127.0.0.1:63426>命令调用:Setout
+debug 22:13:44.493233 websocket.go:432: 客户端<127.0.0.1:63426>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:13:44.493350 websocket.go:432: 客户端<127.0.0.1:63426>返回结果<8>:Setout,1
+error 22:13:44.730139 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:44.730234 websocket.go:580: 客户端<127.0.0.1:63426>命令调用:ClientConnClose
+debug 22:13:44.730683 websocket.go:432: 客户端<127.0.0.1:63426>返回结果<18>:ClientConnClose,-c
+debug 22:13:44.730762 websocket.go:291: 客户端<127.0.0.1:63426>断开 : websocket: close 1001 (going away)
+debug 22:13:44.763517 websocket.go:97: 客户端<127.0.0.1:63436>连接成功
+debug 22:13:44.774466 websocket.go:580: 客户端<127.0.0.1:63436>命令调用:Init,h1,1,2,
+debug 22:13:44.777454 websocket.go:580: 客户端<127.0.0.1:63436>命令调用:Connect
+debug 22:13:44.803229 websocket.go:432: 客户端<127.0.0.1:63436>返回结果<8>:Connect,
+debug 22:13:44.803290 websocket.go:432: 客户端<127.0.0.1:63436>返回结果<7>:Init,67
+debug 22:13:44.804313 websocket.go:580: 客户端<127.0.0.1:63436>命令调用:ExistingMatch
+debug 22:13:44.804355 websocket.go:432: 客户端<127.0.0.1:63436>返回结果<15>:ExistingMatch,0
+debug 22:13:44.910353 websocket.go:580: 客户端<127.0.0.1:63436>命令调用:Matching,0,0,0
+debug 22:13:44.912972 websocket.go:432: 客户端<127.0.0.1:63436>返回结果<10>:Matching,1
+debug 22:13:44.914411 websocket.go:580: 客户端<127.0.0.1:63436>命令调用:EnterRoom,0,0
+debug 22:13:44.918314 websocket.go:432: 客户端<127.0.0.1:63436>返回结果<23>:EnterRoom,1549980824916
+debug 22:13:44.918414 websocket.go:432: 客户端<127.0.0.1:63436>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:45.116996 websocket.go:580: 客户端<127.0.0.1:63436>命令调用:Setout
+debug 22:13:45.120202 websocket.go:432: 客户端<127.0.0.1:63436>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:13:45.120287 websocket.go:432: 客户端<127.0.0.1:63436>返回结果<8>:Setout,1
+error 22:13:54.264371 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:54.264485 websocket.go:580: 客户端<127.0.0.1:63436>命令调用:ClientConnClose
+debug 22:13:54.264898 websocket.go:432: 客户端<127.0.0.1:63436>返回结果<18>:ClientConnClose,-c
+debug 22:13:54.264949 websocket.go:291: 客户端<127.0.0.1:63436>断开 : websocket: close 1001 (going away)
+debug 22:13:54.310125 websocket.go:97: 客户端<127.0.0.1:63477>连接成功
+debug 22:13:54.317047 websocket.go:580: 客户端<127.0.0.1:63477>命令调用:Init,h1,1,2,
+debug 22:13:54.330180 websocket.go:580: 客户端<127.0.0.1:63477>命令调用:Connect
+debug 22:13:54.363113 websocket.go:432: 客户端<127.0.0.1:63477>返回结果<8>:Connect,
+debug 22:13:54.363161 websocket.go:432: 客户端<127.0.0.1:63477>返回结果<7>:Init,67
+debug 22:13:54.364258 websocket.go:580: 客户端<127.0.0.1:63477>命令调用:ExistingMatch
+debug 22:13:54.364317 websocket.go:432: 客户端<127.0.0.1:63477>返回结果<15>:ExistingMatch,0
+debug 22:13:54.467018 websocket.go:580: 客户端<127.0.0.1:63477>命令调用:Matching,0,0,0
+debug 22:13:54.471934 websocket.go:432: 客户端<127.0.0.1:63477>返回结果<10>:Matching,1
+debug 22:13:54.473149 websocket.go:580: 客户端<127.0.0.1:63477>命令调用:EnterRoom,0,0
+debug 22:13:54.476370 websocket.go:432: 客户端<127.0.0.1:63477>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:54.476451 websocket.go:432: 客户端<127.0.0.1:63477>返回结果<23>:EnterRoom,1549980834474
+debug 22:13:54.676447 websocket.go:580: 客户端<127.0.0.1:63477>命令调用:Setout
+debug 22:13:54.682252 websocket.go:432: 客户端<127.0.0.1:63477>返回结果<8>:Setout,1
+debug 22:13:54.682263 websocket.go:432: 客户端<127.0.0.1:63477>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+error 22:13:55.280835 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:55.280930 websocket.go:580: 客户端<127.0.0.1:63477>命令调用:ClientConnClose
+debug 22:13:55.281366 websocket.go:432: 客户端<127.0.0.1:63477>返回结果<18>:ClientConnClose,-c
+debug 22:13:55.281450 websocket.go:291: 客户端<127.0.0.1:63477>断开 : websocket: close 1001 (going away)
+debug 22:13:55.324451 websocket.go:97: 客户端<127.0.0.1:63487>连接成功
+debug 22:13:55.329890 websocket.go:580: 客户端<127.0.0.1:63487>命令调用:Init,h1,1,2,
+debug 22:13:55.339550 websocket.go:580: 客户端<127.0.0.1:63487>命令调用:Connect
+debug 22:13:55.375650 websocket.go:432: 客户端<127.0.0.1:63487>返回结果<8>:Connect,
+debug 22:13:55.375694 websocket.go:432: 客户端<127.0.0.1:63487>返回结果<7>:Init,67
+debug 22:13:55.376642 websocket.go:580: 客户端<127.0.0.1:63487>命令调用:ExistingMatch
+debug 22:13:55.376686 websocket.go:432: 客户端<127.0.0.1:63487>返回结果<15>:ExistingMatch,0
+debug 22:13:55.483281 websocket.go:580: 客户端<127.0.0.1:63487>命令调用:Matching,0,0,0
+debug 22:13:55.485547 websocket.go:432: 客户端<127.0.0.1:63487>返回结果<10>:Matching,1
+debug 22:13:55.487012 websocket.go:580: 客户端<127.0.0.1:63487>命令调用:EnterRoom,0,0
+debug 22:13:55.490726 websocket.go:432: 客户端<127.0.0.1:63487>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:55.490811 websocket.go:432: 客户端<127.0.0.1:63487>返回结果<23>:EnterRoom,1549980835488
+debug 22:13:55.688752 websocket.go:580: 客户端<127.0.0.1:63487>命令调用:Setout
+debug 22:13:55.694176 websocket.go:432: 客户端<127.0.0.1:63487>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:13:55.694251 websocket.go:432: 客户端<127.0.0.1:63487>返回结果<8>:Setout,1
+error 22:13:56.241564 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:56.241667 websocket.go:580: 客户端<127.0.0.1:63487>命令调用:ClientConnClose
+debug 22:13:56.242087 websocket.go:432: 客户端<127.0.0.1:63487>返回结果<18>:ClientConnClose,-c
+debug 22:13:56.242138 websocket.go:291: 客户端<127.0.0.1:63487>断开 : websocket: close 1001 (going away)
+debug 22:13:56.286298 websocket.go:97: 客户端<127.0.0.1:63497>连接成功
+debug 22:13:56.292632 websocket.go:580: 客户端<127.0.0.1:63497>命令调用:Init,h1,1,2,
+debug 22:13:56.300942 websocket.go:580: 客户端<127.0.0.1:63497>命令调用:Connect
+debug 22:13:56.327650 websocket.go:432: 客户端<127.0.0.1:63497>返回结果<8>:Connect,
+debug 22:13:56.327697 websocket.go:432: 客户端<127.0.0.1:63497>返回结果<7>:Init,67
+debug 22:13:56.328530 websocket.go:580: 客户端<127.0.0.1:63497>命令调用:ExistingMatch
+debug 22:13:56.328567 websocket.go:432: 客户端<127.0.0.1:63497>返回结果<15>:ExistingMatch,0
+debug 22:13:56.433953 websocket.go:580: 客户端<127.0.0.1:63497>命令调用:Matching,0,0,0
+debug 22:13:56.436303 websocket.go:432: 客户端<127.0.0.1:63497>返回结果<10>:Matching,1
+debug 22:13:56.437742 websocket.go:580: 客户端<127.0.0.1:63497>命令调用:EnterRoom,0,0
+debug 22:13:56.441167 websocket.go:432: 客户端<127.0.0.1:63497>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:56.441243 websocket.go:432: 客户端<127.0.0.1:63497>返回结果<23>:EnterRoom,1549980836439
+debug 22:13:56.639625 websocket.go:580: 客户端<127.0.0.1:63497>命令调用:Setout
+debug 22:13:56.645101 websocket.go:432: 客户端<127.0.0.1:63497>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:13:56.645196 websocket.go:432: 客户端<127.0.0.1:63497>返回结果<8>:Setout,1
+error 22:13:57.274021 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:57.274122 websocket.go:580: 客户端<127.0.0.1:63497>命令调用:ClientConnClose
+debug 22:13:57.274561 websocket.go:432: 客户端<127.0.0.1:63497>返回结果<18>:ClientConnClose,-c
+debug 22:13:57.274609 websocket.go:291: 客户端<127.0.0.1:63497>断开 : websocket: close 1001 (going away)
+debug 22:13:57.309414 websocket.go:97: 客户端<127.0.0.1:63507>连接成功
+debug 22:13:57.325020 websocket.go:580: 客户端<127.0.0.1:63507>命令调用:Init,h1,1,2,
+debug 22:13:57.337208 websocket.go:580: 客户端<127.0.0.1:63507>命令调用:Connect
+debug 22:13:57.369051 websocket.go:432: 客户端<127.0.0.1:63507>返回结果<8>:Connect,
+debug 22:13:57.369117 websocket.go:432: 客户端<127.0.0.1:63507>返回结果<7>:Init,67
+debug 22:13:57.370229 websocket.go:580: 客户端<127.0.0.1:63507>命令调用:ExistingMatch
+debug 22:13:57.370272 websocket.go:432: 客户端<127.0.0.1:63507>返回结果<15>:ExistingMatch,0
+debug 22:13:57.474640 websocket.go:580: 客户端<127.0.0.1:63507>命令调用:Matching,0,0,0
+debug 22:13:57.476558 websocket.go:432: 客户端<127.0.0.1:63507>返回结果<10>:Matching,1
+debug 22:13:57.477659 websocket.go:580: 客户端<127.0.0.1:63507>命令调用:EnterRoom,0,0
+debug 22:13:57.481177 websocket.go:432: 客户端<127.0.0.1:63507>返回结果<23>:EnterRoom,1549980837479
+debug 22:13:57.481181 websocket.go:432: 客户端<127.0.0.1:63507>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:57.684190 websocket.go:580: 客户端<127.0.0.1:63507>命令调用:Setout
+debug 22:13:57.689511 websocket.go:432: 客户端<127.0.0.1:63507>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:13:57.689620 websocket.go:432: 客户端<127.0.0.1:63507>返回结果<8>:Setout,1
+error 22:13:58.257949 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:58.258039 websocket.go:580: 客户端<127.0.0.1:63507>命令调用:ClientConnClose
+debug 22:13:58.258417 websocket.go:432: 客户端<127.0.0.1:63507>返回结果<18>:ClientConnClose,-c
+debug 22:13:58.258469 websocket.go:291: 客户端<127.0.0.1:63507>断开 : websocket: close 1001 (going away)
+debug 22:13:58.292532 websocket.go:97: 客户端<127.0.0.1:63517>连接成功
+debug 22:13:58.311622 websocket.go:580: 客户端<127.0.0.1:63517>命令调用:Init,h1,1,2,
+debug 22:13:58.318049 websocket.go:580: 客户端<127.0.0.1:63517>命令调用:Connect
+debug 22:13:58.349132 websocket.go:432: 客户端<127.0.0.1:63517>返回结果<8>:Connect,
+debug 22:13:58.349178 websocket.go:432: 客户端<127.0.0.1:63517>返回结果<7>:Init,67
+debug 22:13:58.350899 websocket.go:580: 客户端<127.0.0.1:63517>命令调用:ExistingMatch
+debug 22:13:58.350968 websocket.go:432: 客户端<127.0.0.1:63517>返回结果<15>:ExistingMatch,0
+debug 22:13:58.452818 websocket.go:580: 客户端<127.0.0.1:63517>命令调用:Matching,0,0,0
+debug 22:13:58.455177 websocket.go:432: 客户端<127.0.0.1:63517>返回结果<10>:Matching,1
+debug 22:13:58.456620 websocket.go:580: 客户端<127.0.0.1:63517>命令调用:EnterRoom,0,0
+debug 22:13:58.460320 websocket.go:432: 客户端<127.0.0.1:63517>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:58.460385 websocket.go:432: 客户端<127.0.0.1:63517>返回结果<23>:EnterRoom,1549980838458
+debug 22:13:58.659397 websocket.go:580: 客户端<127.0.0.1:63517>命令调用:Setout
+debug 22:13:58.664716 websocket.go:432: 客户端<127.0.0.1:63517>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:13:58.664712 websocket.go:432: 客户端<127.0.0.1:63517>返回结果<8>:Setout,1
+error 22:13:59.225137 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:13:59.225238 websocket.go:580: 客户端<127.0.0.1:63517>命令调用:ClientConnClose
+debug 22:13:59.225682 websocket.go:432: 客户端<127.0.0.1:63517>返回结果<18>:ClientConnClose,-c
+debug 22:13:59.225757 websocket.go:291: 客户端<127.0.0.1:63517>断开 : websocket: close 1001 (going away)
+debug 22:13:59.260373 websocket.go:97: 客户端<127.0.0.1:63528>连接成功
+debug 22:13:59.263712 websocket.go:580: 客户端<127.0.0.1:63528>命令调用:Init,h1,1,2,
+debug 22:13:59.270276 websocket.go:580: 客户端<127.0.0.1:63528>命令调用:Connect
+debug 22:13:59.305512 websocket.go:432: 客户端<127.0.0.1:63528>返回结果<8>:Connect,
+debug 22:13:59.305556 websocket.go:432: 客户端<127.0.0.1:63528>返回结果<7>:Init,67
+debug 22:13:59.306498 websocket.go:580: 客户端<127.0.0.1:63528>命令调用:ExistingMatch
+debug 22:13:59.306536 websocket.go:432: 客户端<127.0.0.1:63528>返回结果<15>:ExistingMatch,0
+debug 22:13:59.411476 websocket.go:580: 客户端<127.0.0.1:63528>命令调用:Matching,0,0,0
+debug 22:13:59.413944 websocket.go:432: 客户端<127.0.0.1:63528>返回结果<10>:Matching,1
+debug 22:13:59.415451 websocket.go:580: 客户端<127.0.0.1:63528>命令调用:EnterRoom,0,0
+debug 22:13:59.419368 websocket.go:432: 客户端<127.0.0.1:63528>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:13:59.419444 websocket.go:432: 客户端<127.0.0.1:63528>返回结果<23>:EnterRoom,1549980839417
+debug 22:13:59.620702 websocket.go:580: 客户端<127.0.0.1:63528>命令调用:Setout
+debug 22:13:59.624362 websocket.go:432: 客户端<127.0.0.1:63528>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:13:59.624439 websocket.go:432: 客户端<127.0.0.1:63528>返回结果<8>:Setout,1
+error 22:14:00.169214 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:14:00.169317 websocket.go:580: 客户端<127.0.0.1:63528>命令调用:ClientConnClose
+debug 22:14:00.169788 websocket.go:432: 客户端<127.0.0.1:63528>返回结果<18>:ClientConnClose,-c
+debug 22:14:00.169850 websocket.go:291: 客户端<127.0.0.1:63528>断开 : websocket: close 1001 (going away)
+debug 22:14:00.205341 websocket.go:97: 客户端<127.0.0.1:63538>连接成功
+debug 22:14:00.210851 websocket.go:580: 客户端<127.0.0.1:63538>命令调用:Init,h1,1,2,
+debug 22:14:00.221829 websocket.go:580: 客户端<127.0.0.1:63538>命令调用:Connect
+debug 22:14:00.247124 websocket.go:432: 客户端<127.0.0.1:63538>返回结果<8>:Connect,
+debug 22:14:00.247188 websocket.go:432: 客户端<127.0.0.1:63538>返回结果<7>:Init,67
+debug 22:14:00.248308 websocket.go:580: 客户端<127.0.0.1:63538>命令调用:ExistingMatch
+debug 22:14:00.248361 websocket.go:432: 客户端<127.0.0.1:63538>返回结果<15>:ExistingMatch,0
+debug 22:14:00.354493 websocket.go:580: 客户端<127.0.0.1:63538>命令调用:Matching,0,0,0
+debug 22:14:00.356859 websocket.go:432: 客户端<127.0.0.1:63538>返回结果<10>:Matching,1
+debug 22:14:00.358336 websocket.go:580: 客户端<127.0.0.1:63538>命令调用:EnterRoom,0,0
+debug 22:14:00.361790 websocket.go:432: 客户端<127.0.0.1:63538>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:14:00.361871 websocket.go:432: 客户端<127.0.0.1:63538>返回结果<23>:EnterRoom,1549980840360
+debug 22:14:00.562514 websocket.go:580: 客户端<127.0.0.1:63538>命令调用:Setout
+debug 22:14:00.564889 websocket.go:432: 客户端<127.0.0.1:63538>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:14:00.564937 websocket.go:432: 客户端<127.0.0.1:63538>返回结果<8>:Setout,1
+error 22:14:01.081529 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:14:01.081609 websocket.go:580: 客户端<127.0.0.1:63538>命令调用:ClientConnClose
+debug 22:14:01.082121 websocket.go:432: 客户端<127.0.0.1:63538>返回结果<18>:ClientConnClose,-c
+debug 22:14:01.082183 websocket.go:291: 客户端<127.0.0.1:63538>断开 : websocket: close 1001 (going away)
+debug 22:14:01.125703 websocket.go:97: 客户端<127.0.0.1:63548>连接成功
+debug 22:14:01.139122 websocket.go:580: 客户端<127.0.0.1:63548>命令调用:Init,h1,1,2,
+debug 22:14:01.141013 websocket.go:580: 客户端<127.0.0.1:63548>命令调用:Connect
+debug 22:14:01.172164 websocket.go:432: 客户端<127.0.0.1:63548>返回结果<8>:Connect,
+debug 22:14:01.172260 websocket.go:432: 客户端<127.0.0.1:63548>返回结果<7>:Init,67
+debug 22:14:01.173474 websocket.go:580: 客户端<127.0.0.1:63548>命令调用:ExistingMatch
+debug 22:14:01.173522 websocket.go:432: 客户端<127.0.0.1:63548>返回结果<15>:ExistingMatch,0
+debug 22:14:01.274991 websocket.go:580: 客户端<127.0.0.1:63548>命令调用:Matching,0,0,0
+debug 22:14:01.277309 websocket.go:432: 客户端<127.0.0.1:63548>返回结果<10>:Matching,1
+debug 22:14:01.278757 websocket.go:580: 客户端<127.0.0.1:63548>命令调用:EnterRoom,0,0
+debug 22:14:01.282551 websocket.go:432: 客户端<127.0.0.1:63548>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:14:01.282631 websocket.go:432: 客户端<127.0.0.1:63548>返回结果<23>:EnterRoom,1549980841280
+debug 22:14:01.483628 websocket.go:580: 客户端<127.0.0.1:63548>命令调用:Setout
+debug 22:14:01.486567 websocket.go:432: 客户端<127.0.0.1:63548>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:14:01.486623 websocket.go:432: 客户端<127.0.0.1:63548>返回结果<8>:Setout,1
+error 22:14:01.983553 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:14:01.983658 websocket.go:580: 客户端<127.0.0.1:63548>命令调用:ClientConnClose
+debug 22:14:01.984070 websocket.go:432: 客户端<127.0.0.1:63548>返回结果<18>:ClientConnClose,-c
+debug 22:14:01.984119 websocket.go:291: 客户端<127.0.0.1:63548>断开 : websocket: close 1001 (going away)
+debug 22:14:02.019000 websocket.go:97: 客户端<127.0.0.1:63558>连接成功
+debug 22:14:02.023897 websocket.go:580: 客户端<127.0.0.1:63558>命令调用:Init,h1,1,2,
+debug 22:14:02.034298 websocket.go:580: 客户端<127.0.0.1:63558>命令调用:Connect
+debug 22:14:02.075931 websocket.go:432: 客户端<127.0.0.1:63558>返回结果<8>:Connect,
+debug 22:14:02.075999 websocket.go:432: 客户端<127.0.0.1:63558>返回结果<7>:Init,67
+debug 22:14:02.077323 websocket.go:580: 客户端<127.0.0.1:63558>命令调用:ExistingMatch
+debug 22:14:02.077384 websocket.go:432: 客户端<127.0.0.1:63558>返回结果<15>:ExistingMatch,0
+debug 22:14:02.182914 websocket.go:580: 客户端<127.0.0.1:63558>命令调用:Matching,0,0,0
+debug 22:14:02.187429 websocket.go:432: 客户端<127.0.0.1:63558>返回结果<10>:Matching,1
+debug 22:14:02.188589 websocket.go:580: 客户端<127.0.0.1:63558>命令调用:EnterRoom,0,0
+debug 22:14:02.192126 websocket.go:432: 客户端<127.0.0.1:63558>返回结果<30>:Matching_Push,67$0$0$15$0||##1
+debug 22:14:02.192199 websocket.go:432: 客户端<127.0.0.1:63558>返回结果<23>:EnterRoom,1549980842190
+debug 22:14:02.395057 websocket.go:580: 客户端<127.0.0.1:63558>命令调用:Setout
+debug 22:14:02.397882 websocket.go:432: 客户端<127.0.0.1:63558>返回结果<30>:Matching_Push,67$1$0$15$0||##1
+debug 22:14:02.397947 websocket.go:432: 客户端<127.0.0.1:63558>返回结果<8>:Setout,1

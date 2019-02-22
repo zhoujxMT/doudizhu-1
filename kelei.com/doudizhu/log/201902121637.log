@@ -1,0 +1,37 @@
+info  16:37:55.258040 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_game]
+info  16:37:55.259349 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_nmmember]
+info  16:37:55.260137 redis.go:24: [连接Redis localhost:11100]
+info  16:37:55.294141 redis.go:24: [连接Redis localhost:11400]
+info  16:37:55.295956 engine.go:16: [启动引擎]
+debug 16:37:55.299767 user_hd_hint.go:143: ---------牌类型:火箭
+debug 16:37:55.299819 user_hd_hint.go:143: ---------牌类型:炸弹
+debug 16:37:55.299856 user_hd_hint.go:143: ---------牌类型:单
+debug 16:37:55.299893 user_hd_hint.go:143: ---------牌类型:对
+debug 16:37:55.299937 user_hd_hint.go:143: ---------牌类型:三
+debug 16:37:55.299970 user_hd_hint.go:143: ---------牌类型:三带一
+debug 16:37:55.300068 user_hd_hint.go:143: ---------牌类型:三带二
+debug 16:37:55.300127 user_hd_hint.go:143: ---------牌类型:顺子
+debug 16:37:55.300188 user_hd_hint.go:143: ---------牌类型:连对
+debug 16:37:55.300241 user_hd_hint.go:143: ---------牌类型:飞机
+debug 16:37:55.300299 user_hd_hint.go:143: ---------牌类型:四带二
+debug 16:38:05.710295 rpcs.go:31: 收到请求:Connect[67 h1 18_KHhh6dAu4DRw37Ltd-W9GnYbeNuF_gbijog-w4Clw03WusfwusJOBW_q4OTEwW7Qub7hTeleaWpvYjKisripcZDM0wevcAexrB0T0JlzkXsBZZxsq8hzr3lU5sT0tRn8hl_Th_8MiUQablREVMHfABAKBW  a1b741695124f50523b8d5acf0863686 1]
+debug 16:38:05.729297 rpcs.go:38:    回发结果:200,<nil>
+debug 16:38:05.833650 rpcs.go:31: 收到请求:Matching[67 0 0 0 -1]
+debug 16:38:05.836339 rpcs.go:40:    回发结果:200,1
+debug 16:38:05.838492 rpcs.go:31: 收到请求:EnterRoom[67 0 0 -1]
+debug 16:38:05.841571 user.go:965: 推送数据:67&Matching_Push&67$0$0$15$0||##1
+debug 16:38:05.841652 rpcs.go:40:    回发结果:200,1549960685839
+debug 16:38:06.043338 rpcs.go:31: 收到请求:Setout[67]
+debug 16:38:06.045402 user.go:965: 推送数据:67&Matching_Push&67$1$0$15$0||##1
+debug 16:38:06.045512 rpcs.go:40:    回发结果:200,1
+debug 16:48:17.447080 rpcs.go:31: 收到请求:ClientConnClose[67]
+debug 16:48:17.447212 rpcs.go:40:    回发结果:200,-c
+error 21:10:28.658272 logger.go:173:  syncGameInfo dial tcp [::1]:11350: getsockopt: connection refused
+error 21:10:29.661990 logger.go:173:  syncGameInfo dial tcp [::1]:11350: getsockopt: connection refused
+error 21:10:30.668723 logger.go:173:  syncGameInfo dial tcp [::1]:11350: getsockopt: connection refused
+error 21:10:31.673533 logger.go:173:  syncGameInfo dial tcp [::1]:11350: getsockopt: connection refused
+error 21:10:31.696480 match.go:134: syncPCount : dial tcp [::1]:11350: getsockopt: connection refused
+error 21:10:32.682535 logger.go:173:  syncGameInfo dial tcp [::1]:11350: getsockopt: connection refused
+error 21:10:33.690341 logger.go:173:  syncGameInfo dial tcp [::1]:11350: getsockopt: connection refused
+error 21:10:34.698795 logger.go:173:  syncGameInfo dial tcp [::1]:11350: getsockopt: connection refused
+error 21:10:35.703774 logger.go:173:  syncGameInfo dial tcp [::1]:11350: getsockopt: connection refused

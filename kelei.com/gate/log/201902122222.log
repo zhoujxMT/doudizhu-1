@@ -1,0 +1,159 @@
+info  22:22:14.294088 websocket.go:44: server started on : localhost:11280
+info  22:22:14.900056 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_game]
+info  22:22:14.904937 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_nmmember]
+info  22:22:14.906108 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_loadbalancer]
+debug 22:22:20.952138 websocket.go:97: 客户端<127.0.0.1:64212>连接成功
+debug 22:22:20.960000 websocket.go:582: 客户端<127.0.0.1:64212>命令调用:Init,h1,1,2,
+debug 22:22:20.962797 websocket.go:434: 客户端<127.0.0.1:64212>返回结果<7>:Init,67
+debug 22:22:20.975603 websocket.go:582: 客户端<127.0.0.1:64212>命令调用:ExistingMatch
+debug 22:22:20.985457 websocket.go:434: 客户端<127.0.0.1:64212>返回结果<15>:ExistingMatch,0
+debug 22:22:21.090273 websocket.go:582: 客户端<127.0.0.1:64212>命令调用:Matching,0,0,0
+debug 22:22:21.096292 websocket.go:434: 客户端<127.0.0.1:64212>返回结果<10>:Matching,1
+debug 22:22:21.097335 websocket.go:582: 客户端<127.0.0.1:64212>命令调用:EnterRoom,0,0
+debug 22:22:21.098590 websocket.go:434: 客户端<127.0.0.1:64212>返回结果<23>:EnterRoom,1549981046115
+debug 22:22:21.301530 websocket.go:582: 客户端<127.0.0.1:64212>命令调用:Setout
+debug 22:22:21.303055 websocket.go:434: 客户端<127.0.0.1:64212>返回结果<8>:Setout,1
+error 22:22:26.188587 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:22:26.188674 websocket.go:582: 客户端<127.0.0.1:64212>命令调用:ClientConnClose
+debug 22:22:26.189091 websocket.go:434: 客户端<127.0.0.1:64212>返回结果<18>:ClientConnClose,-c
+error 22:22:26.189170 websocket.go:300: [recovery] read : close of closed channel
+debug 22:22:26.237319 websocket.go:97: 客户端<127.0.0.1:64221>连接成功
+debug 22:22:26.243819 websocket.go:582: 客户端<127.0.0.1:64221>命令调用:Init,h1,1,2,
+debug 22:22:26.252427 websocket.go:434: 客户端<127.0.0.1:64221>返回结果<7>:Init,67
+debug 22:22:26.267353 websocket.go:582: 客户端<127.0.0.1:64221>命令调用:ExistingMatch
+debug 22:22:26.278105 websocket.go:434: 客户端<127.0.0.1:64221>返回结果<15>:ExistingMatch,0
+debug 22:22:26.382762 websocket.go:582: 客户端<127.0.0.1:64221>命令调用:Matching,0,0,0
+debug 22:22:26.387088 websocket.go:434: 客户端<127.0.0.1:64221>返回结果<10>:Matching,1
+debug 22:22:26.388423 websocket.go:582: 客户端<127.0.0.1:64221>命令调用:EnterRoom,0,0
+error 22:22:26.389816 websocket.go:745: failed to call: [service internal error]: runtime error: invalid memory address or nil pointer dereference
+debug 22:22:26.389869 websocket.go:434: 客户端<127.0.0.1:64221>返回结果<10>:EnterRoom,
+debug 22:22:26.591517 websocket.go:582: 客户端<127.0.0.1:64221>命令调用:Setout
+debug 22:22:26.592963 websocket.go:434: 客户端<127.0.0.1:64221>返回结果<11>:Setout,-101
+error 22:22:26.691806 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:22:26.691903 websocket.go:582: 客户端<127.0.0.1:64221>命令调用:ClientConnClose
+debug 22:22:26.692364 websocket.go:434: 客户端<127.0.0.1:64221>返回结果<18>:ClientConnClose,-c
+error 22:22:26.692429 websocket.go:300: [recovery] read : close of closed channel
+debug 22:22:26.730329 websocket.go:97: 客户端<127.0.0.1:64227>连接成功
+debug 22:22:26.735167 websocket.go:582: 客户端<127.0.0.1:64227>命令调用:Init,h1,1,2,
+debug 22:22:26.748409 websocket.go:434: 客户端<127.0.0.1:64227>返回结果<7>:Init,67
+debug 22:22:26.763234 websocket.go:582: 客户端<127.0.0.1:64227>命令调用:ExistingMatch
+debug 22:22:26.776563 websocket.go:434: 客户端<127.0.0.1:64227>返回结果<15>:ExistingMatch,0
+debug 22:22:26.879298 websocket.go:582: 客户端<127.0.0.1:64227>命令调用:Matching,0,0,0
+debug 22:22:26.883013 websocket.go:434: 客户端<127.0.0.1:64227>返回结果<10>:Matching,1
+debug 22:22:26.884324 websocket.go:582: 客户端<127.0.0.1:64227>命令调用:EnterRoom,0,0
+error 22:22:26.885961 websocket.go:745: failed to call: [service internal error]: runtime error: invalid memory address or nil pointer dereference
+debug 22:22:26.886055 websocket.go:434: 客户端<127.0.0.1:64227>返回结果<10>:EnterRoom,
+debug 22:22:27.088692 websocket.go:582: 客户端<127.0.0.1:64227>命令调用:Setout
+debug 22:22:27.090166 websocket.go:434: 客户端<127.0.0.1:64227>返回结果<11>:Setout,-101
+error 22:22:27.212251 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:22:27.212351 websocket.go:582: 客户端<127.0.0.1:64227>命令调用:ClientConnClose
+debug 22:22:27.212736 websocket.go:434: 客户端<127.0.0.1:64227>返回结果<18>:ClientConnClose,-c
+error 22:22:27.212786 websocket.go:300: [recovery] read : close of closed channel
+debug 22:22:27.248563 websocket.go:97: 客户端<127.0.0.1:64233>连接成功
+debug 22:22:27.253613 websocket.go:582: 客户端<127.0.0.1:64233>命令调用:Init,h1,1,2,
+debug 22:22:27.263704 websocket.go:434: 客户端<127.0.0.1:64233>返回结果<7>:Init,67
+debug 22:22:27.276451 websocket.go:582: 客户端<127.0.0.1:64233>命令调用:ExistingMatch
+debug 22:22:27.289252 websocket.go:434: 客户端<127.0.0.1:64233>返回结果<15>:ExistingMatch,0
+debug 22:22:27.391385 websocket.go:582: 客户端<127.0.0.1:64233>命令调用:Matching,0,0,0
+debug 22:22:27.394979 websocket.go:434: 客户端<127.0.0.1:64233>返回结果<10>:Matching,1
+debug 22:22:27.396228 websocket.go:582: 客户端<127.0.0.1:64233>命令调用:EnterRoom,0,0
+error 22:22:27.397808 websocket.go:745: failed to call: [service internal error]: runtime error: invalid memory address or nil pointer dereference
+debug 22:22:27.397890 websocket.go:434: 客户端<127.0.0.1:64233>返回结果<10>:EnterRoom,
+debug 22:22:27.597345 websocket.go:582: 客户端<127.0.0.1:64233>命令调用:Setout
+debug 22:22:27.598895 websocket.go:434: 客户端<127.0.0.1:64233>返回结果<11>:Setout,-101
+error 22:22:27.756264 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:22:27.756365 websocket.go:582: 客户端<127.0.0.1:64233>命令调用:ClientConnClose
+debug 22:22:27.756743 websocket.go:434: 客户端<127.0.0.1:64233>返回结果<18>:ClientConnClose,-c
+error 22:22:27.756798 websocket.go:300: [recovery] read : close of closed channel
+debug 22:22:27.800252 websocket.go:97: 客户端<127.0.0.1:64239>连接成功
+debug 22:22:27.806616 websocket.go:582: 客户端<127.0.0.1:64239>命令调用:Init,h1,1,2,
+debug 22:22:27.818717 websocket.go:434: 客户端<127.0.0.1:64239>返回结果<7>:Init,67
+debug 22:22:27.833646 websocket.go:582: 客户端<127.0.0.1:64239>命令调用:ExistingMatch
+debug 22:22:27.845243 websocket.go:434: 客户端<127.0.0.1:64239>返回结果<15>:ExistingMatch,0
+debug 22:22:27.950670 websocket.go:582: 客户端<127.0.0.1:64239>命令调用:Matching,0,0,0
+debug 22:22:27.954382 websocket.go:434: 客户端<127.0.0.1:64239>返回结果<10>:Matching,1
+debug 22:22:27.955744 websocket.go:582: 客户端<127.0.0.1:64239>命令调用:EnterRoom,0,0
+error 22:22:27.957287 websocket.go:745: failed to call: [service internal error]: runtime error: invalid memory address or nil pointer dereference
+debug 22:22:27.957346 websocket.go:434: 客户端<127.0.0.1:64239>返回结果<10>:EnterRoom,
+debug 22:22:28.156714 websocket.go:582: 客户端<127.0.0.1:64239>命令调用:Setout
+debug 22:22:28.157357 websocket.go:434: 客户端<127.0.0.1:64239>返回结果<11>:Setout,-101
+error 22:22:28.267705 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:22:28.267807 websocket.go:582: 客户端<127.0.0.1:64239>命令调用:ClientConnClose
+debug 22:22:28.268254 websocket.go:434: 客户端<127.0.0.1:64239>返回结果<18>:ClientConnClose,-c
+error 22:22:28.268324 websocket.go:300: [recovery] read : close of closed channel
+debug 22:22:28.303587 websocket.go:97: 客户端<127.0.0.1:64245>连接成功
+debug 22:22:28.318808 websocket.go:582: 客户端<127.0.0.1:64245>命令调用:Init,h1,1,2,
+debug 22:22:28.325956 websocket.go:434: 客户端<127.0.0.1:64245>返回结果<7>:Init,67
+debug 22:22:28.337086 websocket.go:582: 客户端<127.0.0.1:64245>命令调用:ExistingMatch
+debug 22:22:28.349825 websocket.go:434: 客户端<127.0.0.1:64245>返回结果<15>:ExistingMatch,0
+debug 22:22:28.454313 websocket.go:582: 客户端<127.0.0.1:64245>命令调用:Matching,0,0,0
+debug 22:22:28.458162 websocket.go:434: 客户端<127.0.0.1:64245>返回结果<10>:Matching,1
+debug 22:22:28.459378 websocket.go:582: 客户端<127.0.0.1:64245>命令调用:EnterRoom,0,0
+error 22:22:28.461028 websocket.go:745: failed to call: [service internal error]: runtime error: invalid memory address or nil pointer dereference
+debug 22:22:28.461093 websocket.go:434: 客户端<127.0.0.1:64245>返回结果<10>:EnterRoom,
+debug 22:22:28.664709 websocket.go:582: 客户端<127.0.0.1:64245>命令调用:Setout
+debug 22:22:28.665311 websocket.go:434: 客户端<127.0.0.1:64245>返回结果<11>:Setout,-101
+error 22:22:31.644269 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:22:31.644377 websocket.go:582: 客户端<127.0.0.1:64245>命令调用:ClientConnClose
+debug 22:22:31.644779 websocket.go:434: 客户端<127.0.0.1:64245>返回结果<18>:ClientConnClose,-c
+error 22:22:31.644844 websocket.go:300: [recovery] read : close of closed channel
+debug 22:22:31.685644 websocket.go:97: 客户端<127.0.0.1:64252>连接成功
+debug 22:22:31.694288 websocket.go:582: 客户端<127.0.0.1:64252>命令调用:Init,h1,1,2,
+debug 22:22:31.696401 websocket.go:434: 客户端<127.0.0.1:64252>返回结果<7>:Init,67
+debug 22:22:31.710706 websocket.go:582: 客户端<127.0.0.1:64252>命令调用:ExistingMatch
+debug 22:22:31.719437 websocket.go:434: 客户端<127.0.0.1:64252>返回结果<15>:ExistingMatch,0
+debug 22:22:31.824483 websocket.go:582: 客户端<127.0.0.1:64252>命令调用:Matching,0,0,0
+debug 22:22:31.830256 websocket.go:434: 客户端<127.0.0.1:64252>返回结果<10>:Matching,1
+debug 22:22:31.831602 websocket.go:582: 客户端<127.0.0.1:64252>命令调用:EnterRoom,0,0
+error 22:22:31.833203 websocket.go:745: failed to call: [service internal error]: runtime error: invalid memory address or nil pointer dereference
+debug 22:22:31.833258 websocket.go:434: 客户端<127.0.0.1:64252>返回结果<10>:EnterRoom,
+debug 22:22:32.034128 websocket.go:582: 客户端<127.0.0.1:64252>命令调用:Setout
+debug 22:22:32.034841 websocket.go:434: 客户端<127.0.0.1:64252>返回结果<11>:Setout,-101
+error 22:22:32.435367 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:22:32.435457 websocket.go:582: 客户端<127.0.0.1:64252>命令调用:ClientConnClose
+debug 22:22:32.435875 websocket.go:434: 客户端<127.0.0.1:64252>返回结果<18>:ClientConnClose,-c
+error 22:22:32.435950 websocket.go:300: [recovery] read : close of closed channel
+debug 22:22:32.470214 websocket.go:97: 客户端<127.0.0.1:64258>连接成功
+debug 22:22:32.476343 websocket.go:582: 客户端<127.0.0.1:64258>命令调用:Init,h1,1,2,
+debug 22:22:32.486928 websocket.go:434: 客户端<127.0.0.1:64258>返回结果<7>:Init,67
+debug 22:22:32.502551 websocket.go:582: 客户端<127.0.0.1:64258>命令调用:ExistingMatch
+debug 22:22:32.511185 websocket.go:434: 客户端<127.0.0.1:64258>返回结果<15>:ExistingMatch,0
+debug 22:22:32.616452 websocket.go:582: 客户端<127.0.0.1:64258>命令调用:Matching,0,0,0
+debug 22:22:32.622690 websocket.go:434: 客户端<127.0.0.1:64258>返回结果<10>:Matching,1
+debug 22:22:32.623837 websocket.go:582: 客户端<127.0.0.1:64258>命令调用:EnterRoom,0,0
+error 22:22:32.624939 websocket.go:745: failed to call: [service internal error]: runtime error: invalid memory address or nil pointer dereference
+debug 22:22:32.624990 websocket.go:434: 客户端<127.0.0.1:64258>返回结果<10>:EnterRoom,
+debug 22:22:32.827892 websocket.go:582: 客户端<127.0.0.1:64258>命令调用:Setout
+debug 22:22:32.828496 websocket.go:434: 客户端<127.0.0.1:64258>返回结果<11>:Setout,-101
+error 22:22:33.227916 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:22:33.228018 websocket.go:582: 客户端<127.0.0.1:64258>命令调用:ClientConnClose
+debug 22:22:33.228420 websocket.go:434: 客户端<127.0.0.1:64258>返回结果<18>:ClientConnClose,-c
+error 22:22:33.228489 websocket.go:300: [recovery] read : close of closed channel
+debug 22:22:33.269639 websocket.go:97: 客户端<127.0.0.1:64264>连接成功
+debug 22:22:33.275281 websocket.go:582: 客户端<127.0.0.1:64264>命令调用:Init,h1,1,2,
+debug 22:22:33.284464 websocket.go:434: 客户端<127.0.0.1:64264>返回结果<7>:Init,67
+debug 22:22:33.298362 websocket.go:582: 客户端<127.0.0.1:64264>命令调用:ExistingMatch
+debug 22:22:33.307871 websocket.go:434: 客户端<127.0.0.1:64264>返回结果<15>:ExistingMatch,0
+debug 22:22:33.412700 websocket.go:582: 客户端<127.0.0.1:64264>命令调用:Matching,0,0,0
+debug 22:22:33.416412 websocket.go:434: 客户端<127.0.0.1:64264>返回结果<10>:Matching,1
+debug 22:22:33.417611 websocket.go:582: 客户端<127.0.0.1:64264>命令调用:EnterRoom,0,0
+error 22:22:33.419187 websocket.go:745: failed to call: [service internal error]: runtime error: invalid memory address or nil pointer dereference
+debug 22:22:33.419243 websocket.go:434: 客户端<127.0.0.1:64264>返回结果<10>:EnterRoom,
+debug 22:22:33.619362 websocket.go:582: 客户端<127.0.0.1:64264>命令调用:Setout
+debug 22:22:33.622681 websocket.go:434: 客户端<127.0.0.1:64264>返回结果<11>:Setout,-101
+error 22:22:34.020216 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:22:34.020295 websocket.go:582: 客户端<127.0.0.1:64264>命令调用:ClientConnClose
+debug 22:22:34.020710 websocket.go:434: 客户端<127.0.0.1:64264>返回结果<18>:ClientConnClose,-c
+error 22:22:34.020793 websocket.go:300: [recovery] read : close of closed channel
+debug 22:22:34.058094 websocket.go:97: 客户端<127.0.0.1:64273>连接成功
+debug 22:22:34.066136 websocket.go:582: 客户端<127.0.0.1:64273>命令调用:Init,h1,1,2,
+debug 22:22:34.075818 websocket.go:434: 客户端<127.0.0.1:64273>返回结果<7>:Init,67
+debug 22:22:34.090524 websocket.go:582: 客户端<127.0.0.1:64273>命令调用:ExistingMatch
+debug 22:22:34.102220 websocket.go:434: 客户端<127.0.0.1:64273>返回结果<15>:ExistingMatch,0
+debug 22:22:34.206572 websocket.go:582: 客户端<127.0.0.1:64273>命令调用:Matching,0,0,0
+debug 22:22:34.210465 websocket.go:434: 客户端<127.0.0.1:64273>返回结果<10>:Matching,1
+debug 22:22:34.211679 websocket.go:582: 客户端<127.0.0.1:64273>命令调用:EnterRoom,0,0
+error 22:22:34.213444 websocket.go:745: failed to call: [service internal error]: runtime error: invalid memory address or nil pointer dereference
+debug 22:22:34.213544 websocket.go:434: 客户端<127.0.0.1:64273>返回结果<10>:EnterRoom,
+debug 22:22:34.412621 websocket.go:582: 客户端<127.0.0.1:64273>命令调用:Setout
+debug 22:22:34.413345 websocket.go:434: 客户端<127.0.0.1:64273>返回结果<11>:Setout,-101

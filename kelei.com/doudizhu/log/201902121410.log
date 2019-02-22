@@ -1,0 +1,28 @@
+info  14:10:47.549712 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_game]
+info  14:10:47.575177 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_nmmember]
+info  14:10:47.575957 redis.go:24: [连接Redis localhost:11100]
+info  14:10:47.578136 redis.go:24: [连接Redis localhost:11400]
+info  14:10:47.579658 engine.go:16: [启动引擎]
+debug 14:10:47.583219 user_hd_hint.go:143: ---------牌类型:火箭
+debug 14:10:47.583267 user_hd_hint.go:143: ---------牌类型:炸弹
+debug 14:10:47.583313 user_hd_hint.go:143: ---------牌类型:单
+debug 14:10:47.583356 user_hd_hint.go:143: ---------牌类型:对
+debug 14:10:47.583402 user_hd_hint.go:143: ---------牌类型:三
+debug 14:10:47.583448 user_hd_hint.go:143: ---------牌类型:三带一
+debug 14:10:47.583498 user_hd_hint.go:143: ---------牌类型:三带二
+debug 14:10:47.583544 user_hd_hint.go:143: ---------牌类型:顺子
+debug 14:10:47.583597 user_hd_hint.go:143: ---------牌类型:连对
+debug 14:10:47.583656 user_hd_hint.go:143: ---------牌类型:飞机
+debug 14:10:47.583729 user_hd_hint.go:143: ---------牌类型:四带二
+debug 14:10:51.405738 rpcs.go:31: 收到请求:ClientConnClose[67]
+debug 14:10:51.405887 rpcs.go:40:    回发结果:200,-c
+debug 14:10:51.496123 rpcs.go:31: 收到请求:Connect[67 h1 18_KHhh6dAu4DRw37Ltd-W9GnYbeNuF_gbijog-w4Clw03WusfwusJOBW_q4OTEwW7Qub7hTeleaWpvYjKisripcZDM0wevcAexrB0T0JlzkXsBZZxsq8hzr3lU5sT0tRn8hl_Th_8MiUQablREVMHfABAKBW  a1b741695124f50523b8d5acf0863686 1]
+debug 14:10:51.512434 rpcs.go:38:    回发结果:200,<nil>
+debug 14:10:51.619097 rpcs.go:31: 收到请求:Matching[67 0 0 0 -1]
+debug 14:10:51.625808 rpcs.go:40:    回发结果:200,1
+debug 14:10:51.627565 rpcs.go:31: 收到请求:EnterRoom[67 0 0 -1]
+debug 14:10:51.630072 user.go:965: 推送数据:67&Matching_Push&67$0$0$15$0||##1
+debug 14:10:51.630202 rpcs.go:40:    回发结果:200,1549951851628
+debug 14:10:51.835886 rpcs.go:31: 收到请求:Setout[67]
+debug 14:10:51.838465 user.go:965: 推送数据:67&Matching_Push&67$1$0$15$0||##1
+debug 14:10:51.838611 rpcs.go:40:    回发结果:200,1

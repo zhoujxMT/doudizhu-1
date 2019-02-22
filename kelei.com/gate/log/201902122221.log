@@ -1,0 +1,99 @@
+info  22:21:06.340605 websocket.go:44: server started on : localhost:11280
+info  22:21:06.960684 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_game]
+info  22:21:06.962082 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_nmmember]
+info  22:21:06.963203 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_loadbalancer]
+debug 22:21:12.320105 websocket.go:97: 客户端<127.0.0.1:64134>连接成功
+debug 22:21:12.330294 websocket.go:582: 客户端<127.0.0.1:64134>命令调用:Init,h1,1,2,
+debug 22:21:12.339516 websocket.go:434: 客户端<127.0.0.1:64134>返回结果<7>:Init,67
+debug 22:21:12.340497 websocket.go:582: 客户端<127.0.0.1:64134>命令调用:ExistingMatch
+debug 22:21:12.340551 websocket.go:434: 客户端<127.0.0.1:64134>返回结果<15>:ExistingMatch,0
+debug 22:21:12.446196 websocket.go:582: 客户端<127.0.0.1:64134>命令调用:Matching,0,0,0
+error 22:21:12.446379 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference
+error 22:21:16.158222 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:21:16.158328 websocket.go:582: 客户端<127.0.0.1:64134>命令调用:ClientConnClose
+error 22:21:16.158433 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference
+debug 22:21:16.158492 websocket.go:291: 客户端<127.0.0.1:64134>断开 : websocket: close 1001 (going away)
+debug 22:21:16.198872 websocket.go:97: 客户端<127.0.0.1:64138>连接成功
+debug 22:21:16.209426 websocket.go:582: 客户端<127.0.0.1:64138>命令调用:Init,h1,1,2,
+debug 22:21:16.211150 websocket.go:434: 客户端<127.0.0.1:64138>返回结果<7>:Init,67
+debug 22:21:16.212059 websocket.go:582: 客户端<127.0.0.1:64138>命令调用:ExistingMatch
+debug 22:21:16.212107 websocket.go:434: 客户端<127.0.0.1:64138>返回结果<15>:ExistingMatch,0
+debug 22:21:16.318656 websocket.go:582: 客户端<127.0.0.1:64138>命令调用:Matching,0,0,0
+error 22:21:16.318818 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference
+error 22:21:19.197578 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:21:19.197692 websocket.go:582: 客户端<127.0.0.1:64138>命令调用:ClientConnClose
+error 22:21:19.197773 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference
+debug 22:21:19.197807 websocket.go:291: 客户端<127.0.0.1:64138>断开 : websocket: close 1001 (going away)
+debug 22:21:19.235815 websocket.go:97: 客户端<127.0.0.1:64142>连接成功
+debug 22:21:19.252497 websocket.go:582: 客户端<127.0.0.1:64142>命令调用:Init,h1,1,2,
+debug 22:21:19.262443 websocket.go:434: 客户端<127.0.0.1:64142>返回结果<7>:Init,67
+debug 22:21:19.263231 websocket.go:582: 客户端<127.0.0.1:64142>命令调用:ExistingMatch
+debug 22:21:19.263277 websocket.go:434: 客户端<127.0.0.1:64142>返回结果<15>:ExistingMatch,0
+debug 22:21:19.365828 websocket.go:582: 客户端<127.0.0.1:64142>命令调用:Matching,0,0,0
+error 22:21:19.365987 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference
+error 22:21:19.677913 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:21:19.677999 websocket.go:582: 客户端<127.0.0.1:64142>命令调用:ClientConnClose
+error 22:21:19.678071 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference
+debug 22:21:19.678101 websocket.go:291: 客户端<127.0.0.1:64142>断开 : websocket: close 1001 (going away)
+debug 22:21:19.714985 websocket.go:97: 客户端<127.0.0.1:64146>连接成功
+debug 22:21:19.719797 websocket.go:582: 客户端<127.0.0.1:64146>命令调用:Init,h1,1,2,
+debug 22:21:19.729030 websocket.go:434: 客户端<127.0.0.1:64146>返回结果<7>:Init,67
+debug 22:21:19.729831 websocket.go:582: 客户端<127.0.0.1:64146>命令调用:ExistingMatch
+debug 22:21:19.729871 websocket.go:434: 客户端<127.0.0.1:64146>返回结果<15>:ExistingMatch,0
+debug 22:21:19.832225 websocket.go:582: 客户端<127.0.0.1:64146>命令调用:Matching,0,0,0
+error 22:21:19.832453 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference
+error 22:21:20.013677 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:21:20.013769 websocket.go:582: 客户端<127.0.0.1:64146>命令调用:ClientConnClose
+error 22:21:20.013836 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference
+debug 22:21:20.013873 websocket.go:291: 客户端<127.0.0.1:64146>断开 : websocket: close 1001 (going away)
+debug 22:21:20.055577 websocket.go:97: 客户端<127.0.0.1:64150>连接成功
+debug 22:21:20.061980 websocket.go:582: 客户端<127.0.0.1:64150>命令调用:Init,h1,1,2,
+debug 22:21:20.076884 websocket.go:434: 客户端<127.0.0.1:64150>返回结果<7>:Init,67
+debug 22:21:20.089111 websocket.go:582: 客户端<127.0.0.1:64150>命令调用:ExistingMatch
+debug 22:21:20.089169 websocket.go:434: 客户端<127.0.0.1:64150>返回结果<15>:ExistingMatch,0
+debug 22:21:20.191439 websocket.go:582: 客户端<127.0.0.1:64150>命令调用:Matching,0,0,0
+error 22:21:20.191582 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference
+error 22:21:20.317570 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:21:20.317673 websocket.go:582: 客户端<127.0.0.1:64150>命令调用:ClientConnClose
+error 22:21:20.317748 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference
+debug 22:21:20.317799 websocket.go:291: 客户端<127.0.0.1:64150>断开 : websocket: close 1001 (going away)
+debug 22:21:20.353178 websocket.go:97: 客户端<127.0.0.1:64155>连接成功
+debug 22:21:20.369062 websocket.go:582: 客户端<127.0.0.1:64155>命令调用:Init,h1,1,2,
+debug 22:21:20.379535 websocket.go:434: 客户端<127.0.0.1:64155>返回结果<7>:Init,67
+debug 22:21:20.380605 websocket.go:582: 客户端<127.0.0.1:64155>命令调用:ExistingMatch
+debug 22:21:20.380665 websocket.go:434: 客户端<127.0.0.1:64155>返回结果<15>:ExistingMatch,0
+debug 22:21:20.483494 websocket.go:582: 客户端<127.0.0.1:64155>命令调用:Matching,0,0,0
+error 22:21:20.483643 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference
+error 22:21:25.941369 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:21:25.941483 websocket.go:582: 客户端<127.0.0.1:64155>命令调用:ClientConnClose
+error 22:21:25.941563 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference
+debug 22:21:25.941602 websocket.go:291: 客户端<127.0.0.1:64155>断开 : websocket: close 1001 (going away)
+debug 22:21:25.991199 websocket.go:97: 客户端<127.0.0.1:64163>连接成功
+debug 22:21:25.998377 websocket.go:582: 客户端<127.0.0.1:64163>命令调用:Init,h1,1,2,
+debug 22:21:26.007063 websocket.go:434: 客户端<127.0.0.1:64163>返回结果<7>:Init,67
+debug 22:21:26.007857 websocket.go:582: 客户端<127.0.0.1:64163>命令调用:ExistingMatch
+debug 22:21:26.007902 websocket.go:434: 客户端<127.0.0.1:64163>返回结果<15>:ExistingMatch,0
+debug 22:21:26.111364 websocket.go:582: 客户端<127.0.0.1:64163>命令调用:Matching,0,0,0
+error 22:21:26.112824 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference
+error 22:21:26.373802 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:21:26.373893 websocket.go:582: 客户端<127.0.0.1:64163>命令调用:ClientConnClose
+error 22:21:26.373965 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference
+debug 22:21:26.373992 websocket.go:291: 客户端<127.0.0.1:64163>断开 : websocket: close 1001 (going away)
+debug 22:21:26.415422 websocket.go:97: 客户端<127.0.0.1:64167>连接成功
+debug 22:21:26.422346 websocket.go:582: 客户端<127.0.0.1:64167>命令调用:Init,h1,1,2,
+debug 22:21:26.430886 websocket.go:434: 客户端<127.0.0.1:64167>返回结果<7>:Init,67
+debug 22:21:26.431604 websocket.go:582: 客户端<127.0.0.1:64167>命令调用:ExistingMatch
+debug 22:21:26.431649 websocket.go:434: 客户端<127.0.0.1:64167>返回结果<15>:ExistingMatch,0
+debug 22:21:26.537062 websocket.go:582: 客户端<127.0.0.1:64167>命令调用:Matching,0,0,0
+error 22:21:26.537198 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference
+error 22:21:26.749796 websocket.go:308: websocket err:websocket: close 1001 (going away)
+debug 22:21:26.749895 websocket.go:582: 客户端<127.0.0.1:64167>命令调用:ClientConnClose
+error 22:21:26.749968 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference
+debug 22:21:26.750002 websocket.go:291: 客户端<127.0.0.1:64167>断开 : websocket: close 1001 (going away)
+debug 22:21:26.784605 websocket.go:97: 客户端<127.0.0.1:64171>连接成功
+debug 22:21:26.793580 websocket.go:582: 客户端<127.0.0.1:64171>命令调用:Init,h1,1,2,
+debug 22:21:26.805464 websocket.go:434: 客户端<127.0.0.1:64171>返回结果<7>:Init,67
+debug 22:21:26.806306 websocket.go:582: 客户端<127.0.0.1:64171>命令调用:ExistingMatch
+debug 22:21:26.806351 websocket.go:434: 客户端<127.0.0.1:64171>返回结果<15>:ExistingMatch,0
+debug 22:21:26.909055 websocket.go:582: 客户端<127.0.0.1:64171>命令调用:Matching,0,0,0
+error 22:21:26.909200 websocket.go:573: [recovery] handleClientData : runtime error: invalid memory address or nil pointer dereference

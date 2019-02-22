@@ -1,0 +1,16 @@
+info  15:38:57.713833 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_game]
+info  15:38:57.730799 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_nmmember]
+info  15:38:57.731967 redis.go:24: [连接Redis localhost:11100]
+info  15:38:57.735048 redis.go:24: [连接Redis localhost:11400]
+info  15:38:57.738151 engine.go:16: [启动引擎]
+debug 15:38:57.742626 user_hd_hint.go:143: ---------牌类型:火箭
+debug 15:38:57.742746 user_hd_hint.go:143: ---------牌类型:炸弹
+debug 15:38:57.742798 user_hd_hint.go:143: ---------牌类型:单
+debug 15:38:57.742835 user_hd_hint.go:143: ---------牌类型:对
+debug 15:38:57.742869 user_hd_hint.go:143: ---------牌类型:三
+debug 15:38:57.742907 user_hd_hint.go:143: ---------牌类型:三带一
+debug 15:38:57.742944 user_hd_hint.go:143: ---------牌类型:三带二
+debug 15:38:57.742984 user_hd_hint.go:143: ---------牌类型:顺子
+debug 15:38:57.743034 user_hd_hint.go:143: ---------牌类型:连对
+debug 15:38:57.743088 user_hd_hint.go:143: ---------牌类型:飞机
+debug 15:38:57.743161 user_hd_hint.go:143: ---------牌类型:四带二
