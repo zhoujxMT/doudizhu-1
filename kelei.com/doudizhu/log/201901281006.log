@@ -1,5 +1,0 @@
-error 10:06:23.377338 rpcxserver.go:47: client: etcd cluster is unavailable or misconfigured; error #0: dial tcp [::1]:2479: getsockopt: connection refused
-info  10:06:23.377675 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_game]
-info  10:06:23.387111 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_nmmember]
-info  10:06:23.388095 redis.go:24: [连接Redis localhost:11100]
-fatal 10:06:23.388955 logger.go:183:  redis.Dial dial tcp [::1]:11100: getsockopt: connection refused

@@ -1,6 +1,0 @@
-info  21:30:55.370817 httpgin.go:34: [启动http localhost:11480]
-info  21:30:55.371174 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_nmmember]
-error 21:30:58.703548 basic.go:32: 无效的命令 :  
-error 21:30:58.856713 basic.go:32: 无效的命令 :  
-error 21:30:58.983464 basic.go:32: 无效的命令 :  
-error 21:30:59.079423 basic.go:32: 无效的命令 :  

@@ -1,4 +1,0 @@
-info  11:24:06.178361 websocket.go:44: server started on : localhost:11280
-info  11:24:06.544407 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_game]
-info  11:24:06.551083 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_nmmember]
-info  11:24:06.551657 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_loadbalancer]

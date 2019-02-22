@@ -1,5 +1,0 @@
-info  15:08:46.863362 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_game]
-info  15:08:46.880979 sql.go:24: [连接Sql 127.0.0.1:3306 doudizhu_nmmember]
-info  15:08:46.881796 redis.go:24: [连接Redis localhost:11100]
-fatal 15:08:46.883094 logger.go:183:  redis.Dial dial tcp [::1]:11100: getsockopt: connection refused
-fatal 15:08:48.315418 logger.go:183:  redis.Dial dial tcp [::1]:11100: getsockopt: connection refused
